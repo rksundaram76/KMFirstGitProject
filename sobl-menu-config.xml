@@ -1,26 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<menus>
-	<common-url>
-	<url id="app.SOAPUImain" url="/secure/SOAPUImain.do"/>	 
-		<url id="app.soblExecution" url="/secure/soblExecution.do"/>	 
-		<url id="app.soblInput" url="/secure/soblInput.do"/>
-	</common-url>
-	<menu id="ws.sobl.soblframeworkmain" helpid="" caption="SOBL" resourceid="SOBL" permission="Y" module="Security" category="Administrator" url="" parameters="" imageurl="secure/images/LandingPageIcons/SOBl.png">
-		<menu id="ws.customers.customer" helpid="SOBL Client" caption="SOBL Client" resourceid="menu.weblist.ws" permission="write" module="Security" category="Administrator" url="/secure/SOAPUImain.do" parameters="" imageurl="secure/images/LandingPageIcons/Web-client.png" >
-			<url id="ws.customers.customer.3" module="Security" permission="write" url="secure/soblExecution.do" parametercheck=""/>
-			<url id="ws.customers.customer.4" module="Security" permission="write" url="secure/soblInput.do" parametercheck=""/>
-		</menu>
-	</menu>	
-	<!--
-	<menu id="menu.admin.exportimport" helpid="" caption="Export Import" resourceid="menu.admin.exportimport" permission="Y" module="Security" category="Administrator" url="" parameters="" imageurl="secure/images/LandingPageIcons/Export-Import.png">
-		<menu id="menu.admin.export" helpid="Export Configurations" caption="Export Configurations" resourceid="menu.export" permission="write" module="Security" category="Administrator" url="/secure/pages/SOAPUImain.jsp" parameters="" imageurl="secure/images/LandingPageIcons/Web-client.png" >
-			<url id="menu.admin.export.1" module="Security" permission="write" url="secure/pages/soblExecution.jsp" parametercheck=""/>
-			<url id="menu.admin.export.2" module="Security" permission="write" url="secure/pages/soblInput.jsp" parametercheck=""/>
-		</menu>
-		<menu id="menu.admin.import" helpid="Inport Configurations" caption="Import Configurations" resourceid="menu.import" permission="write" module="Security" category="Administrator" url="/secure/pages/SOAPUImain.jsp" parameters="" imageurl="secure/images/LandingPageIcons/Web-client.png" >
-			<url id="menu.admin.import.1" module="Security" permission="write" url="secure/pages/soblExecution.jsp" parametercheck=""/>
-			<url id="menu.admin.import.2" module="Security" permission="write" url="secure/pages/soblInput.jsp" parametercheck=""/>
-		</menu>
-	</menu>	
-	-->
-</menus>
+asdasdasdasdasd
+
+asdasdsa
+das
+d
