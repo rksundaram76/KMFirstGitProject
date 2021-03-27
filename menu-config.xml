@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus>
+<skip-token-url>
+		<url id="app.logon" url="/secure/logon.do"/>
+			<url id="app.ac" url="/secure/ac.do"/>
+		<url id="app.loader" url="/secure/loader.do"/>
+		<url id="app.resendotp" url="/secure/resendotp.do"/>
+		<url id="app.validateotp" url="/secure/validateotp.do"/>
+		<url id="app.leaveplanner" url="/secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=leaveplanner&amp;_en=fetchleaves"/>
+		<url id="app.main" url="/secure/main.do"/>
+		<url id="app.header" url="/secure/header.do"/>
+			<url id="app.menu" url="/secure/menu.do"/>
+		<url id="app.SOAPUImain" url="/secure/SOAPUImain.do"/>	 
+		<url id="app.soblExecution" url="/secure/soblExecution.do"/>	 
+		<url id="app.soblInput" url="/secure/soblInput.do"/>
+		<url id="app.popupFrame" url="/secure/popupFrame.do"/>
+			<!--url id="app.functionnavigation" url="/secure/functionnavigation.do"/-->	
+		<!--url id="app.insert" url="/secure/insert.do"/>	
+		<url id="app.forgotPassword" url="/secure/forgotPassword.do"/>	
+		<url id="app.error" url="/secure/error.do"/>	
+		<url id="app.bunit_extra_info" url="/secure/bunit_extra_info.do"/>	
+		<url id="app.user_extra_info" url="/secure/user_extra_info.do"/>	
+		<url id="app.customizationstatics" url="/secure/customizationstatics.do"/>	
+		<url id="app.about" url="/secure/about.do"/>	
+		<url id="app.popupframe" url="/secure/popupframe.do"/>	
+	
+		<url id="app.buttons" url="/secure/buttons.do"/>	
+	 
+			
+		<url id="app.AuditParseXML" url="/secure/AuditParseXML.do"/>	
+		<url id="app.settings" url="/secure/admin/settings.do"/>	 
+		<url id="app.filterdefinetion" url="/secure/filterdefinetion.do"/>	 
+		<url id="app.GeneralAuditData" url="/secure/GeneralAuditData.do"/-->
+ 			
+			<url id="app.filterdefinetion" url="/secure/filterdefinetion.do"/>	  
+		<url id="app.schedule" url="/schedule.do"/>
+		<url id="app.childdialognew" url="/secure/childdialognew.do"/>			
+		<url id="app.logger" url="/secure/logger.do"/>
+<url id="app.jws_soblInput" url="/secure/jws_soblInput.do"/>		
+			<url id="app.blank" url="/secure/blank.do"/>
+		<url id="app.msgbox" url="/secure/msgbox.do"/>
+		<url id="app.about" url="/secure/about.do"/>
+		<url id="app.defaultmessage" url="/defaultmessage.do"/>
+		<url id="app.changepass" url="/secure/changepass.do"/>
+		<url id="app.logout" url="/secure/logout.do"/>
+		<url id="app.switch" url="/secure/switch.do"/>
+		<url id="app.errorpage" url="/secure/500.do"/>
+		<url id="app.listprofile" url="/secure/listprofile.do"/>
+		<url id="app.leaveplanner" url="/secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=leaveplanner&amp;_en=fetchleaves"/>
+		<url id="app.pinnedcategory" url="/secure/BRMS.do" parameters="_pn=pincategory&amp;_en=onSave"/>
+		<url id="app.noaccess" url="/noaccess.do"/>
+		
+		<url id="app.upload" url="/secure/upload.do"/>
+		<url id="app.dashboard" url="/secure/dashboard.do"/>
+		<url id="app.help" url="/secure/help.do"/>
+		<url id="app.timeout" url="/secure/timeout.do"/>
+		<url id="app.inputbox" url="/secure/inputbox.do"/>
+		<url id="app.calender" url="/secure/calender.do"/>
+		<url id="app.listappprofile" url="/secure/listappprofile.do"/>
+		<url id="app.getpopupalert" url="/secure/getpopupalert.do"/>
+		<url id="app.broadcast" url="/secure/broadcast.do"/>
+		<url id="app.broadcastpopup" url="/secure/broadcastpopup.do"/>
+		<url id="app.resource" url="/secure/resource.do"/>
+			<url id="app.LandingPage" url="/secure/LandingPage.do"/>
+			<url id="app.filterdefinetion" url="/secure/filterdefinetion.do"/>	  
+	</skip-token-url>
+
+	<common-url>
+		<url id="app.jws_soblInput" url="/secure/jws_soblInput.do"/>
+		<url id="app.loader" url="/secure/loader.do"/>
+		<url id="app.resendotp" url="/secure/resendotp.do"/>
+		<url id="app.validateotp" url="/secure/validateotp.do"/>
+		<url id="app.main" url="/secure/main.do"/>
+		<url id="app.header" url="/secure/header.do"/>
+		<url id="app.popupFrame" url="/secure/popupFrame.do"/>
+		<url id="app.functionnavigation" url="/secure/functionnavigation.do"/>	
+		<url id="app.LandingPage" url="/secure/LandingPage.do"/>
+		<url id="app.pinnedcategory" url="/secure/BRMS.do" parameters="_pn=pincategory&amp;_en=onSave"/>
+		<url id="app.menu" url="/secure/menu.do"/>
+		<url id="app.blank" url="/secure/blank.do"/>
+		<url id="app.switch" url="/secure/switch.do"/>
+		<url id="app.logout" url="/secure/logout.do"/>
+		<url id="app.timeout" url="/secure/timeout.do"/>
+		<url id="app.msgbox" url="/secure/msgbox.do"/>
+		<url id="app.about" url="/secure/about.do"/>
+		<url id="app.inputbox" url="/secure/inputbox.do"/>
+		<url id="app.calender" url="/secure/calender.do"/>
+		<url id="app.listprofile" url="/secure/listprofile.do"/>
+		<url id="app.listappprofile" url="/secure/listappprofile.do"/>
+		<url id="app.getpopupalert" url="/secure/getpopupalert.do"/>
+		<url id="app.broadcast" url="/secure/broadcast.do"/>
+		<url id="app.broadcastpopup" url="/secure/broadcastpopup.do"/>
+		<url id="app.help" url="/secure/help.do"/>
+		<url id="app.resource" url="/secure/resource.do"/>
+	</common-url>
+
+	<menu id="system" helpid="" caption="System" resourceid="menu.system" module="Security" url="" parameters="" imageurl="secure/images/msystem.gif" >
+		<menu id="system.changepassword" helpid="" caption="Change Password" resourceid="menu.weblist.changepassword" permission="write" module="Security" url="/secure/changepass.do" parameters="" imageurl="secure/images/mchangepass.gif" category="Administrator">
+		</menu>
+		
+		<menu id="system.preferences" caption="Preferences" resourceid="menu.weblist.preferences" permission="Y" module="Security" url="/secure/gcm.do" parameters="plevel=U" imageurl="secure/images/preferences16.gif" category="Administrator">
+			<url id="system.preferences.1" module="Security" permission="write" url="secure/admin/settings.do" />
+			<url id="system.preferences.2" module="Security" permission="write" url="secure/admin/settings.do" />
+			<url id="system.preferences.3" module="Security" permission="write" url="secure/gcm.do" />
+			<url id="system.preferences.4" module="Security" permission="write" url="secure/weblist.do" parametercheck=""/>
+			<url id="system.preferences.5" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_fid=secure,_pn=weblistexport" />
+		</menu>
+		
+		<menu id="system.listprofile" helpid="" caption="Switch Profile" resourceid="header.profile" permission="read" module="Security" url="/secure/listprofile.do" parameters="" imageurl="secure/images/profileSwitch.png" category="Common" >
+			<url id="system.listprofile.2" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secure,_pn=switch,_en=switchprofiles" />
+		</menu>
+		
+		<menu id="security.admin.separator.s1" helpid="" caption="-" resourceid="-" permission="" module="Security" url="" parameters="" imageurl="">
+		</menu>
+		<menu id="system.announcement" helpid="" caption="Announcement" resourceid="announcement.menu.list" permission="write" module="Security" url="/secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=announcementlist&amp;_en=fetchActiveAnnouncement" imageurl="secure/images/news.gif">
+			<url id="system.announcement.0" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=announcementlist,_en=fetchActiveAnnouncement"/>
+		</menu>
+		<menu id="system.leaveplanner" helpid="" caption="Leave Planner" resourceid="system.leaveplanner" permission="write" module="Security" url="/secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=leaveplanner&amp;_en=fetchleaves" imageurl="secure/images/mleave.gif" category="Designer">
+			<url id="system.leaveplanner.L8" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=leaveplanner,_en=fetchleaves"/>
+			<url id="system.leaveplanner.L0" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=leaveplanner,_en=getData"/>
+			<url id="system.leaveplanner.L1" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=timeoff,_en=saveleaves"/>
+			<url id="system.leaveplanner.L2" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=timeoff,_en=updateleaves"/>
+			<url id="system.leaveplanner.L3" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=timeoff,_en=deleteleave"/>
+			<url id="system.leaveplanner.L4" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secureadmin,_pn=timeoff,_en=fetchoff"/>
+			<url id="system.leaveplanner.L5" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=subordinatesearch,_vn=subordinateusers"/>
+			<url id="system.leaveplanner.L6" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=subordinatesearch,_vn=directusers"/>
+			<url id="system.leaveplanner.L7" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=timeoff,_en=fetchoff"/>
+		</menu>
+	</menu>
+	
+	<menu id="system" helpid="" caption="Security Management" resourceid="menu.securitymanagement" module="Security" category="Administrator" url="" parameters="" imageurl="secure/images/LandingPageIcons/System.png" >
+			<menu id="system.landingpage" helpid="" caption="Landing Page" resourceid="Landing Page" permission="read" module="Security" category="Common" url="/secure/LandingPage.do" parameters="" imageurl="">
+			<url id="system.landingpage" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secure,_pn=liveTiles" />
+			<url id="system.landingpage" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=pincategory" />
+			<url id="system.landingpage" module="Security" permission="read" url="/secure/pages/setapplncategory.jsp" parametercheck="" />
+		</menu>
+		<menu id="system.changepassword" helpid="" caption="Change Password" resourceid="menu.weblist.changepassword" permission="read" module="Security" category="Common" url="/secure/changepass.do" parameters="" imageurl="secure/images/mchangepass.gif">
+		</menu>
+		
+		<menu id="system.listprofile" helpid="" caption="Switch Profile" resourceid="menu.weblist.profile" permission="read" module="Security" category="Common"  url="/secure/listprofile.do" parameters="" imageurl="secure/images/profileSwitch.png">
+			<url id="system.listprofile.1" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secure,_pn=switch,_en=switchprofiles" />
+		</menu>
+		
+		<menu id="system.preferences" caption="Preferences" resourceid="menu.weblist.preferences" permission="Y" module="Security" category="Common" url="/secure/gcm.do" parameters="plevel=U" imageurl="secure/images/preferences16.gif">
+			<url id="system.preferences.1" module="Security" permission="read" url="secure/admin/settings.do" />
+			<url id="system.preferences.2" module="Security" permission="write" url="secure/admin/settings.do" />
+			<url id="system.preferences.3" module="Security" permission="write" url="secure/gcm.do" />
+			<url id="system.preferences.4" module="Security" permission="write" url="secure/weblist.do" parametercheck=""/>
+			<url id="system.preferences.5" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secure,_pn=weblistexport" />
+		</menu>
+		<menu id="security.admin.separator.s1" helpid="" caption="-" resourceid="-" permission="" module="Security" url="" parameters="" imageurl="">
+		</menu>
+		<menu id="security.admin.securitypolicies" caption="Security Policies" resourceid="menu.weblist.SecurityPolicies" permission="Y" module="Security" category="Administrator" url="/secure/gcm.do" parameters="plevel=O" imageurl="secure/images/LandingPageIcons/Security-Policies.png">
+			<url id="system.gcm.1" module="Security" permission="read" url="secure/admin/settings.do" />
+			<url id="system.gcm.2" module="Security" permission="write" url="secure/admin/settings.do" />
+			<url id="system.gcm.3" module="Security" permission="write" url="secure/gcm.do" />
+			<url id="system.gcm.4" module="Security" permission="read" url="secure/weblist.do" parametercheck="_fid=secureadmin,_pn=gcmaudit,_en=gcmgroupaudit"/>
+			<url id="system.gcm.5" module="Security" permission="read" url="secure/weblist.do" parametercheck="_pn=gcmgroupaudit,_wn=gcmgroupaudit,_vn=audit"/>
+			<url id="system.gcm.6" module="Security" permission="read" url="secure/weblist.do" parametercheck="_fid=secureadmin,_pn=gcmsettingsaudit,_en=gcmsettingsaudit"/>
+			<url id="system.gcm.7" module="Security" permission="write" url="secure/testmail.do" />
+			<url id="system.gcm.8" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secure,_pn=weblistexport" />
+			<url id="system.gcm.9" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=userssearch,_vn=enableusers" />
+		</menu>
+		<menu id="security.admin.securitylog" helpid="" caption="Security Event Log" resourceid="admin.weblist.SecurityLog" permission="Y" module="Security" category="Administrator" url="/secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=SecurityEventLog&amp;_en=SecurityEventLog&amp;today=&amp;" imageurl="secure/images/LandingPageIcons/Security-log.png">
+			<url id="security.admin.securitylog.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=SecurityEventLog,_wn=SecurityEventLog" />
+			<url id="security.admin.securitylog.2" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secure,_pn=weblistexport" />
+			<url id="security.admin.securitylog.3" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=SecurityEventLog,_en=SecurityEventLog" />
+		</menu>
+		<menu id="system.admin.dashboard" helpid="" caption="Dashboard" resourceid="dashboard.menu" permission="write" module="Security" category="Administrator" url="/secure/dashboard.do" parameters="_action=load" imageurl="secure/images/LandingPageIcons/Security-Partition.png">
+			<url id="system.admin.dashboard.1" module="Security" permission="read" url="/secure/dashboard.do"/>
+			<url id="system.admin.dashboard.2" module="Security" permission="read" url="/secure/dashboard.do"   parametercheck="_action=load"/>
+			<url id="system.admin.dashboard.3" module="Security" permission="read" url="/secure/BRMS.do"/>
+		</menu>
+	</menu>
+	<menu id="security.busecurity" helpid="" caption="Security" resourceid="menu.security" module="Security" category="Configurator" url="" parameters="" imageurl="secure/images/LandingPageIcons/Security.png" >
+		<menu id="security.admin.businessunit" helpid="" caption="Business Units" resourceid="menu.weblist.businessunit" permission="write" module="Security" category="Configurator" url="/secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=businessunitslist&amp;_en=businessunits" imageurl="secure/images/mbusiness.gif">
+			<bulk-operations id="businessunits" caption="Business Unit" resourceid="menu.weblist.businessunit">
+				<function id="newbusinessunit" caption="New Business Unit" resourceid="businessunit.weblist.function.new"/>
+				<function id="enable" caption="Enable" resourceid="businessunit.weblist.function.enable"/>
+				<function id="disable" caption="Disable" resourceid="businessunit.weblist.function.disable"/>
+				<function id="changebusiness" caption="Change Parent Business unit" resourceid="businessunit.weblist.function.changeparentbusinessunit"/>
+				<function id="exporttoexcel" caption="Export..." resourceid="weblist.function.export"/>
+			</bulk-operations>
+			<bulk-operations id="attributeslist" caption="Custom Attributes" resourceid="">
+				<function id="newattribute" caption="New Attribute" resourceid="udf.label.newattribute"/>
+				<function id="enable" caption="Enable" resourceid="udf.label.enableattribute"/>
+				<function id="disable" caption="Disable" resourceid="udf.label.disableattribute"/>
+			</bulk-operations>
+			<function id="security.admin.businessunit.detail" caption="Details" resourceid="menu.businessunit.detail" permission="write" module="Security" imageurl="secure/images/navup.gif" >
+				<function id="security.admin.businessunit.detail.information" caption="Information" resourceid="menu.businessunit.information" permission="write" module="Security" url="secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=businessunit&amp;_en=fetchBusinessunit" imageurl="secure/images/bu-active.gif" />
+				<function id="security.admin.businessunit.detail.closure" caption="Business Closures" resourceid="menu.businessunit.closure" permission="write" module="Security" url="secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=businessclosureweblist&amp;_en=businessclosures" imageurl="secure/images/ico_16_5005.gif" />
+				<function id="security.admin.businessunit.detail.workinghours" caption="Working Hours" resourceid="menu.usermgt.users.workinghours" permission="write" module="Security" url="secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=workingmonth&amp;_en=fetch" imageurl="secure/images/ico16work.gif" />
+				<function id="security.admin.businessunit.detail.networkaccess" caption="Login IP Ranges" resourceid="menu.businessunit.networkaccess" permission="write" module="Security" url="secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=bunetworkaccess&amp;_en=fetchNetworkData" imageurl="secure/images/i16ipres.gif" />
+				<function id="security.admin.businessunit.detail.zipcodemapping" caption="Zip Code Ranges" resourceid="menu.businessunit.zipcodemapping" permission="write" module="Security" url="secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=buzipcodemapping&amp;_en=fetchzipcodeData" imageurl="secure/images/ico_18_1071.gif" />
+			</function>
+		
+			<url id="security.admin.businessunit.s1" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="_msfid=secureadmin,_msjsp=businessunitmain" />
+			<url id="security.admin.businessunit.s2" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="_msfid=secureadmin,_msjsp=businessunitmain,_pn=businessunit,_en=fetchBusinessunit" />
+			<url id="security.admin.businessunit.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=businessunits,_wn=businessunits" />
+			<url id="security.admin.businessunit.2" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=businessunitslist,_en=businessunits" />
+			<url id="security.admin.businessunit.3" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=businessunitslist,_en=businessunits" />
+			<url id="security.admin.businessunit.4" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=businessunitssearch" />
+			<url id="security.admin.businessunit.5" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=businessunitssearch,_wn=businessunitssearch" />
+			<url id="security.admin.businessunit.6" operation="businessunits:enable" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=businessunitslist,_en=activateBU"/>
+			<url id="security.admin.businessunit.7" operation="businessunits:disable" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=businessunitslist,_en=deactivateBU"/>
+			<url id="security.admin.businessunit.8" operation="businessunits:changebusiness" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=businessunitslist,_en=changeBusiness"/>
+			<url id="security.admin.businessunit.9" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=businessunit,_en=fetchBusinessunit"/>
+			<url id="security.admin.businessunit.10" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=businessunit,_en=updateBusinessunit"/>
+			<url id="security.admin.businessunit.10.1" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=businessunit,_en=insertBusinessunit"/>
+			<url id="security.admin.businessunit.11" operation="businessunits:exporttoexcel" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secure,_pn=weblistexport"/>
+			<url id="security.admin.businessunit.13" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=entitylist,_en=entity"/>
+			<url id="security.admin.businessunit.14" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=bunetworkaccess,_en=fetchNetworkData"/>
+			<url id="security.admin.businessunit.15" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=bunetworkaccess,_en=updateNetworkData"/>
+			<url id="security.admin.businessunit.16" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=buzipcodemapping,_en=fetchzipcodeData"/>
+			<url id="security.admin.businessunit.17" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=buzipcodemapping,_en=updateZipcodeData"/>
+			<url id="security.admin.businessunit.19" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workinghours,_en=fetchwork" />
+			<url id="security.admin.businessunit.20" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=workinghours,_en=savework" />
+			<url id="security.admin.businessunit.21" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=workinghours,_en=updatework" />
+			<url id="security.admin.businessunit.22" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=businessclosureweblist,_en=businessclosures" />
+			<url id="security.admin.businessunit.23" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=businessclosures,_vn=ALL" />
+			<url id="security.admin.businessunit.24" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=businessclosures,_vn=YEARWISE" />
+			<url id="security.admin.businessunit.25" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secureadmin,_pn=businessclosure,_en=fetchBusinessclosure"/>
+			<url id="security.admin.businessunit.26" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=businessclosure,_en=saveclosure"/>
+			<url id="security.admin.businessunit.27" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=businessclosure,_en=updateclosure"/>
+			<url id="security.admin.businessunit.28" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=businessclosure,_en=deletebusinessclosure"/>
+
+			<url id="security.admin.businessunit.29" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secureadmin,_pn=workinghours,_en=fetchwork" />
+			<url id="security.admin.businessunit.30" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingbreak,_en=fetchbreak" />
+			<url id="security.admin.businessunit.31" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingbreak,_en=save" />
+			<url id="security.admin.businessunit.32" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingbreak,_en=update" />
+			<url id="security.admin.businessunit.33" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingoff,_en=fetchoff" />
+			<url id="security.admin.businessunit.34" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingoff,_en=saveworkingoff" />
+			<url id="security.admin.businessunit.35" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingoff,_en=updateworkingoff" />
+			<url id="security.admin.businessunit.36" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingmonth,_en=fetch" />
+			<url id="security.admin.businessunit.37" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingmonth,_en=onload" />
+			<url id="security.admin.businessunit.38" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingmonth,_en=delete" />
+			<url id="security.admin.businessunit.41" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=attributeslist,_en=attributeslist"/>
+			<url id="security.admin.businessunit.42" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=entitylist,_en=entity"/>
+			<url id="security.admin.businessunit.43" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_wn=attributeslist,_vn=INACTIVEATTRIBUTES"/>
+			<url id="security.admin.businessunit.44" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_wn=attributeslist,_vn=ACTIVEATTRIBUTES"/>
+			<url id="security.admin.businessunit.45" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_wn=attributeslist,_vn=ALLTHEATTRIBUTES"/>
+			<url id="security.admin.businessunit.46" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=LOAD_ATTRIBUTES"/>
+			<url id="security.admin.businessunit.47" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=FETCH_ATTRIBUTES"/>
+			<url id="security.admin.businessunit.48" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=SAVE_ATTRIBUTES"/>
+			<url id="security.admin.businessunit.49" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=FETCH_ATTRIBUTE_LIST"/>
+			<url id="security.admin.businessunit.50" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=LOADSECTION"/>
+			<url id="security.admin.businessunit.51" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=LOAD_ADD_TO_SECTION"/>
+			<url id="security.admin.businessunit.52" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=VALIDATE_DUPLICATE_SECTION"/>
+			<url id="security.admin.businessunit.53" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=VALIDATE_DUPLICATE_ATTRIBUTE"/>
+			<url id="security.admin.businessunit.54" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=LOAD_LAYOUT"/>
+			<url id="security.admin.businessunit.55" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=SAVE_LAYOUT"/>
+			<url id="security.admin.businessunit.56" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=FETCHSECTION"/>
+			<url id="security.admin.businessunit.57" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=PRINTMODEL"/>
+			<url id="security.admin.businessunit.58" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=PRINTHTML"/>
+			<url id="security.admin.businessunit.59" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=SAVE_SECTION"/>
+			<url id="security.admin.businessunit.60" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=ACTIVATE_DEACTIVATE_ATTRIBUTES"/>
+			<url id="security.admin.businessunit.61" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=IMPORT"/>
+			<url id="security.admin.businessunit.62" module="Security" permission="write" url="/secure/showsection.do" parametercheck=""/>
+			<url id="security.admin.businessunit.63" module="Security" permission="write" url="/secure/screenmain.do" parametercheck="_msfid=secureadmin,_msjsp=udfmain"/>
+			<url id="security.admin.businessunit.64" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=addholidays,_en=fetchCountries" />
+			<url id="security.admin.businessunit.65" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=addholidays,_en=importHolidays" />
+			<url id="security.admin.businessunit.100" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=udflookups,_vn=alllookups"/>
+			<url id="security.admin.businessunit.101" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_pn=udflookups,_wn=udflookups,_vn=alllookups"/>
+			<url id="security.admin.businessunit.102" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=countrylist,_vn=countrysearch"/>
+			<url id="security.admin.businessunit.103" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=countrylist,_vn=statesearch"/>
+			<url id="security.admin.businessunit.104" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=countrylist,_vn=citysearch"/>
+			<url id="security.admin.businessunit.105" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=countrylist,_vn=zipsearch"/>
+			<url id="security.admin.businessunit.106" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_wn=modulesearch,_vn=activemodules"/>
+			<url id="security.admin.businessunit.107" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_wn=submodulesearch,_vn=activesubmodules"/>
+		</menu>
+		<menu id="system.centralizedlookups.security.nomkrchkr" caption="Manage Lookups" resourceid="menu.centralizedlookups.security.mkr" permission="Y" module="Security" category="Configurator" url="/secure/centralizedlookup.do" parameters="areaid=security" imageurl="secure/images/mlookup.gif">
+			<url id="system.lookups.nomkrchkr.1" module="Security" permission="read" url="secure/lookup.do" />
+			<url id="system.lookups.nomkrchkr.2" module="Security" permission="write" url="secure/lookup.do" />
+			<url id="system.lookups.nomkrchkr.3" module="Security" permission="write" url="secure/centralizedlookup.do" />
+		</menu>
+		<menu id="system.centralizedlookups.security.maker" caption="Manage Lookups Maker" resourceid="menu.centralizedlookups.security.mkr" permission="Y" module="Security" category="Configurator" url="/secure/centralizedlookup.do" parameters="areaid=security&amp;_event=MKR" imageurl="secure/images/mlookup.gif">
+			<url id="system.lookups.maker.1" module="Security" permission="read" url="secure/lookup.do" />
+			<url id="system.lookups.maker.2" module="Security" permission="write" url="secure/lookup.do" />
+			<url id="system.lookups.maker.3" module="Security" permission="write" url="secure/centralizedlookup.do" />
+		</menu>
+		<menu id="system.centralizedlookups.security.checker" caption="Manage Lookups Checker" resourceid="menu.centralizedlookups.security.chkr" permission="Y" module="Security" category="Configurator" url="/secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=managelookups&amp;_en=managelookupslist&amp;_event=CHKR" imageurl="secure/images/mlookup.gif">
+			<url id="system.lookups.checker.1" module="Security" permission="read" url="secure/lookup.do" />
+			<url id="system.lookups.checker.2" module="Security" permission="write" url="secure/lookup.do" />
+			<url id="system.lookups.checker.3" module="Security" permission="write" url="secure/centralizedlookup.do" />
+			<url id="system.lookups.checker.4" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=managelookups,_wn=managelookupslist" />
+			<url id="system.lookups.checker.5" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=managelookupslist"/>
+			<url id="system.lookups.checker.6" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=managelookupslist" />
+			<url id="system.lookups.checker.7" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_pn=managelookups" />
+		</menu>
+	</menu>
+	<menu id="security.licensemgmt" helpid="" caption="License Management" resourceid="menu.license" module="Security" category="Administrator" url="" parameters="" imageurl="secure/images/LandingPageIcons/Security.png" >
+		<menu id="security.admin.weblist.installedproduct" helpid="" caption="Installed Products" resourceid="admin.weblist.installedproduct" permission="write" module="Security" category="Administrator" url="/secure/productinstalled.do" parameters="ACTION=FETCH" imageurl="secure/images/LandingPageIcons/Installed-Products.png">
+			<bulk-operations id="installedproduct" caption="Installed Products" resourceid="admin.weblist.installedproduct">
+				<function id="addproduct" caption="Add Product" resourceid="function.product.addproduct"/>
+				<function id="upgradeproduct" caption="Upgrade Product" resourceid="function.product.upgradeproduct"/>
+			</bulk-operations>
+			<url id="security.menu.weblist.installedproduct.1" module="Security" permission="write" url="/secure/licensewizards.do" parametercheck=""/>
+			<url id="security.menu.weblist.installedproduct.2" module="Security" permission="write" url="/secure/productlicense.do" parametercheck="ACTION=FETCH"/>
+			<url id="security.menu.weblist.installedproduct.3" operation="installedproduct:addproduct" module="Security" permission="write" url="/secure/productlicense.do" parametercheck="ACTION=INSERTLICENSE"/>
+			<url id="security.menu.weblist.installedproduct.4" operation="installedproduct:upgradeproduct" module="Security" permission="write" url="/secure/productlicense.do" parametercheck="ACTION=UPDATELICENSE"/>
+			<url id="security.menu.weblist.installedproduct.5" module="Security" permission="write" url="/secure/productinstalled.do" parametercheck="ACTION=FETCH"/>
+		</menu>
+	</menu>
+	<menu id="security.admin" helpid="" caption="User Management" resourceid="menu.usermanagement" module="Security" category="Administrator" url="" parameters="" imageurl="secure/images/LandingPageIcons/Bussiness-Management.png" >
+		<menu id="security.admin.businessunit" helpid="" caption="Business Units" resourceid="menu.weblist.businessunit" permission="write" module="Security" category="Configurator" url="/secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=businessunitslist&amp;_en=businessunits" imageurl="secure/images/mbusiness.gif">
+			<bulk-operations id="businessunits" caption="Business Unit" resourceid="menu.weblist.businessunit">
+				<function id="newbusinessunit" caption="New Business Unit" resourceid="businessunit.weblist.function.new"/>
+				<function id="enable" caption="Enable" resourceid="businessunit.weblist.function.enable"/>
+				<function id="disable" caption="Disable" resourceid="businessunit.weblist.function.disable"/>
+				<function id="changebusiness" caption="Change Parent Business unit" resourceid="businessunit.weblist.function.changeparentbusinessunit"/>
+				<function id="exporttoexcel" caption="Export..." resourceid="weblist.function.export"/>
+			</bulk-operations>
+			<bulk-operations id="attributeslist" caption="Custom Attributes" resourceid="">
+				<function id="newattribute" caption="New Attribute" resourceid="udf.label.newattribute"/>
+				<function id="enable" caption="Enable" resourceid="udf.label.enableattribute"/>
+				<function id="disable" caption="Disable" resourceid="udf.label.disableattribute"/>
+			</bulk-operations>
+			<function id="security.admin.businessunit.detail" caption="Details" resourceid="menu.businessunit.detail" permission="write" module="Security" imageurl="secure/images/navup.gif" >
+				<function id="security.admin.businessunit.detail.information" caption="Information" resourceid="menu.businessunit.information" permission="write" module="Security" url="secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=businessunit&amp;_en=fetchBusinessunit" imageurl="secure/images/bu-active.gif" />
+				<function id="security.admin.businessunit.detail.closure" caption="Business Closures" resourceid="menu.businessunit.closure" permission="write" module="Security" url="secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=businessclosureweblist&amp;_en=businessclosures" imageurl="secure/images/ico_16_5005.gif" />
+				<function id="security.admin.businessunit.detail.workinghours" caption="Working Hours" resourceid="menu.usermgt.users.workinghours" permission="write" module="Security" url="secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=workingmonth&amp;_en=fetch" imageurl="secure/images/ico16work.gif" />
+				<function id="security.admin.businessunit.detail.networkaccess" caption="Login IP Ranges" resourceid="menu.businessunit.networkaccess" permission="write" module="Security" url="secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=bunetworkaccess&amp;_en=fetchNetworkData" imageurl="secure/images/i16ipres.gif" />
+				<function id="security.admin.businessunit.detail.zipcodemapping" caption="Zip Code Ranges" resourceid="menu.businessunit.zipcodemapping" permission="write" module="Security" url="secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=buzipcodemapping&amp;_en=fetchzipcodeData" imageurl="secure/images/ico_18_1071.gif" />
+			</function>
+			
+			<url id="security.admin.businessunit.s1" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="_msfid=secureadmin,_msjsp=businessunitmain" />
+			<url id="security.admin.businessunit.s2" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="_msfid=secureadmin,_msjsp=businessunitmain,_pn=businessunit,_en=fetchBusinessunit" />
+			<url id="security.admin.businessunit.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=businessunits,_wn=businessunits" />
+			<url id="security.admin.businessunit.2" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=businessunitslist,_en=businessunits" />
+			<url id="security.admin.businessunit.3" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=businessunitslist,_en=businessunits" />
+			<url id="security.admin.businessunit.4" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=businessunitssearch" />
+			<url id="security.admin.businessunit.5" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=businessunitssearch,_wn=businessunitssearch" />
+			<url id="security.admin.businessunit.6" operation="businessunits:enable" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=businessunitslist,_en=activateBU"/>
+			<url id="security.admin.businessunit.7" operation="businessunits:disable" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=businessunitslist,_en=deactivateBU"/>
+			<url id="security.admin.businessunit.8" operation="businessunits:changebusiness" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=businessunitslist,_en=changeBusiness"/>
+			<url id="security.admin.businessunit.9" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=businessunit,_en=fetchBusinessunit"/>
+			<url id="security.admin.businessunit.10" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=businessunit,_en=updateBusinessunit"/>
+			<url id="security.admin.businessunit.10.1" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=businessunit,_en=insertBusinessunit"/>
+			<url id="security.admin.businessunit.11" operation="businessunits:exporttoexcel" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secure,_pn=weblistexport"/>
+			<url id="security.admin.businessunit.13" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=entitylist,_en=entity"/>
+			<url id="security.admin.businessunit.14" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=bunetworkaccess,_en=fetchNetworkData"/>
+			<url id="security.admin.businessunit.15" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=bunetworkaccess,_en=updateNetworkData"/>
+			<url id="security.admin.businessunit.16" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=buzipcodemapping,_en=fetchzipcodeData"/>
+			<url id="security.admin.businessunit.17" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=buzipcodemapping,_en=updateZipcodeData"/>
+			<url id="security.admin.businessunit.19" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workinghours,_en=fetchwork" />
+			<url id="security.admin.businessunit.20" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=workinghours,_en=savework" />
+			<url id="security.admin.businessunit.21" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=workinghours,_en=updatework" />
+			<url id="security.admin.businessunit.22" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=businessclosureweblist,_en=businessclosures" />
+			<url id="security.admin.businessunit.23" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=businessclosures,_vn=ALL" />
+			<url id="security.admin.businessunit.24" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=businessclosures,_vn=YEARWISE" />
+			<url id="security.admin.businessunit.25" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secureadmin,_pn=businessclosure,_en=fetchBusinessclosure"/>
+			<url id="security.admin.businessunit.26" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=businessclosure,_en=saveclosure"/>
+			<url id="security.admin.businessunit.27" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=businessclosure,_en=updateclosure"/>
+			<url id="security.admin.businessunit.28" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=businessclosure,_en=deletebusinessclosure"/>
+
+			<url id="security.admin.businessunit.29" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secureadmin,_pn=workinghours,_en=fetchwork" />
+			<url id="security.admin.businessunit.30" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingbreak,_en=fetchbreak" />
+			<url id="security.admin.businessunit.31" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingbreak,_en=save" />
+			<url id="security.admin.businessunit.32" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingbreak,_en=update" />
+			<url id="security.admin.businessunit.33" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingoff,_en=fetchoff" />
+			<url id="security.admin.businessunit.34" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingoff,_en=saveworkingoff" />
+			<url id="security.admin.businessunit.35" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingoff,_en=updateworkingoff" />
+			<url id="security.admin.businessunit.36" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingmonth,_en=fetch" />
+			<url id="security.admin.businessunit.37" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingmonth,_en=onload" />
+			<url id="security.admin.businessunit.38" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingmonth,_en=delete" />
+			<url id="security.admin.businessunit.41" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=attributeslist,_en=attributeslist"/>
+			<url id="security.admin.businessunit.42" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=entitylist,_en=entity"/>
+			<url id="security.admin.businessunit.43" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_wn=attributeslist,_vn=INACTIVEATTRIBUTES"/>
+			<url id="security.admin.businessunit.44" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_wn=attributeslist,_vn=ACTIVEATTRIBUTES"/>
+			<url id="security.admin.businessunit.45" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_wn=attributeslist,_vn=ALLTHEATTRIBUTES"/>
+			<url id="security.admin.businessunit.46" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=LOAD_ATTRIBUTES"/>
+			<url id="security.admin.businessunit.47" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=FETCH_ATTRIBUTES"/>
+			<url id="security.admin.businessunit.48" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=SAVE_ATTRIBUTES"/>
+			<url id="security.admin.businessunit.49" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=FETCH_ATTRIBUTE_LIST"/>
+			<url id="security.admin.businessunit.50" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=LOADSECTION"/>
+			<url id="security.admin.businessunit.51" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=LOAD_ADD_TO_SECTION"/>
+			<url id="security.admin.businessunit.52" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=VALIDATE_DUPLICATE_SECTION"/>
+			<url id="security.admin.businessunit.53" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=VALIDATE_DUPLICATE_ATTRIBUTE"/>
+			<url id="security.admin.businessunit.54" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=LOAD_LAYOUT"/>
+			<url id="security.admin.businessunit.55" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=SAVE_LAYOUT"/>
+			<url id="security.admin.businessunit.56" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=FETCHSECTION"/>
+			<url id="security.admin.businessunit.57" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=PRINTMODEL"/>
+			<url id="security.admin.businessunit.58" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=PRINTHTML"/>
+			<url id="security.admin.businessunit.59" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=SAVE_SECTION"/>
+			<url id="security.admin.businessunit.60" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=ACTIVATE_DEACTIVATE_ATTRIBUTES"/>
+			<url id="security.admin.businessunit.61" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=IMPORT"/>
+			<url id="security.admin.businessunit.62" module="Security" permission="write" url="/secure/showsection.do" parametercheck=""/>
+			<url id="security.admin.businessunit.63" module="Security" permission="write" url="/secure/screenmain.do" parametercheck="_msfid=secureadmin,_msjsp=udfmain"/>
+			<url id="security.admin.businessunit.64" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=addholidays,_en=fetchCountries" />
+			<url id="security.admin.businessunit.65" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=addholidays,_en=importHolidays" />
+			<url id="security.admin.businessunit.100" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=udflookups,_vn=alllookups"/>
+			<url id="security.admin.businessunit.101" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_pn=udflookups,_wn=udflookups,_vn=alllookups"/>
+			<url id="security.admin.businessunit.102" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=countrylist,_vn=countrysearch"/>
+			<url id="security.admin.businessunit.103" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=countrylist,_vn=statesearch"/>
+			<url id="security.admin.businessunit.104" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=countrylist,_vn=citysearch"/>
+			<url id="security.admin.businessunit.105" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=countrylist,_vn=zipsearch"/>
+		</menu>
+		<menu id="security.admin.usermgt.roles" helpid="" caption="Security Roles" resourceid="menu.weblist.roles" permission="read" module="Security" category="Administrator" url="/secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=securityroleslist&amp;_en=roles&amp;sFilter=ACE001330CA448A38E165F8534ACE001" imageurl="secure/images/LandingPageIcons/Security-Roles.png">
+			<bulk-operations id="roles" caption="Security Roles" resourceid="menu.weblist.roles">
+				<function id="newrole" caption="New Role" resourceid="function.roles.new"/>
+				<function id="copy" caption="Copy Role" resourceid="function.roles.copy"/>
+				<function id="enable" caption="Enable" resourceid="function.roles.enable"/>
+				<function id="disable" caption="Disable" resourceid="function.roles.disable"/>
+			</bulk-operations>
+			<url id="security.admin.usermgt.roles.1" module="Security" permission="read" url="/secure/role.do" parametercheck="ACTION=select"/>
+			<url id="security.admin.usermgt.roles.2" module="Security" permission="read" url="/secure/role.do" parametercheck="ACTION=rload"/>
+			<url id="security.admin.usermgt.roles.3" module="Security" permission="read" url="/secure/rolemenu.do" parametercheck="ACTION=rfetch"/>
+			<url id="security.admin.usermgt.roles.4" module="Security" permission="write" url="/secure/role.do" parametercheck="ACTION=rsave"/>
+			<url id="security.admin.usermgt.roles.5" operation="roles:copy" module="Security" permission="write" url="/secure/copyrolemenu.do" parametercheck="ACTION=COPYROLE"/>
+			<url id="security.admin.usermgt.roles.6" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=roles,_wn=roles,_vn=ACTIVEROLES"/>
+			<url id="security.admin.usermgt.roles.7" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=roles,_wn=roles,_vn=INACTIVEROLES"/>
+			<url id="security.admin.usermgt.roles.8" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=securityroleslist,_en=roles"/>
+			<url id="security.admin.usermgt.roles.9" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=securityroleslist,_en=roles"/>
+			<url id="security.admin.usermgt.roles.10" operation="roles:enable" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=securityroleslist,_en=activate"/>
+			<url id="security.admin.usermgt.roles.11" operation="roles:disable" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=securityroleslist,_en=inactivate"/>
+			<url id="security.admin.usermgt.roles.12" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_en=saveroledesc,_pn=role"/>
+			
+		</menu>
+		<menu id="security.admin.usermgt.allocperc" helpid="" caption="Allocation Percentage" resourceid="menu.usermgt.users.allocperc" permission="write" module="Security" category="Administrator" url="/secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=allocationcaplist&amp;_en=teamlist" imageurl="secure/images/news.gif">
+			<url id="security.admin.usermgt.allocperc.0" module="Security" permission="write" url="/secure/BRMS.do" parametercheck=""/>
+			<url id="security.admin.usermgt.allocperc.1" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="" />
+			<url id="security.admin.usermgt.allocperc.2" module="Security" permission="write" url="/secure/weblist.do" parametercheck="" />
+		</menu>
+		<menu id="security.admin.usermgt.users" helpid="" caption="Users" resourceid="menu.usermgt.users" permission="write" module="Security" category="Administrator" url="/secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=userslist&amp;_en=users" imageurl="secure/images/LandingPageIcons/user.png">
+			<bulk-operations id="users" caption="Users" resourceid="menu.usermgt.users">
+				<function id="newuser" caption="New User" resourceid="user.weblist.function.new"/>
+				<function id="copyuser" caption="Copy User" resourceid="user.weblist.function.copy"/>
+				<function id="enable" caption="Enable" resourceid="user.weblist.function.enable"/>
+				<function id="enabledormant" caption="Enable Dormant" resourceid="user.weblist.function.enable.dormant"/>
+				<function id="disable" caption="Disable" resourceid="user.weblist.function.disable"/>
+				<function id="lockuser" caption="Lock" resourceid="user.weblist.function.lock"/>
+				<function id="unlockuser" caption="Unlock" resourceid="user.weblist.function.unlock"/>
+				<function id="changeexpiry" caption="Change Expiry" resourceid="user.weblist.function.change.expiry"/>
+				<function id="resetpassword" caption="Reset Password" resourceid="user.weblist.function.reset.password"/>
+				<function id="expirepasswords" caption="Expire Passwords" resourceid="user.weblist.function.expire.password"/>
+				<function id="activate" caption="Activate" resourceid="user.weblist.function.activate"/>
+				<function id="deactivate" caption="Deactivate" resourceid="user.weblist.function.deactivate"/>
+				<function id="enabletrace" caption="Enable Trace" resourceid="user.weblist.function.enabletrace"/>
+				<function id="disabletrace" caption="Disable Trace" resourceid="user.weblist.function.disabletrace"/>
+				<function id="changebusinessunit" caption="Change Business Unit" resourceid="user.weblist.function.change.business.unit"/>
+				<function id="changemanager" caption="Change Manager" resourceid="user.weblist.function.change.manager"/>
+				<function id="changedepartment" caption="Change Department" resourceid="user.weblist.function.change.department"/>
+				<function id="changedormantusers" caption="Change Dormant Users" resourceid="user.weblist.function.dormant.users"/>
+				<function id="exporttoexcel" caption="Export..." resourceid="weblist.function.export"/>
+				<function id="rejectuser" caption="Reject User" resourceid="user.weblist.function.reject"/>
+			</bulk-operations>
+			<bulk-operations id="attributeslist" caption="Custom Attributes" resourceid="">
+				<function id="newattribute" caption="New Attribute" resourceid="udf.label.newattribute"/>
+				<function id="enable" caption="Enable" resourceid="udf.label.enableattribute"/>
+				<function id="disable" caption="Disable" resourceid="udf.label.disableattribute"/>
+			</bulk-operations>
+			<function id="security.admin.usermgt.users.detail" caption="Details" resourceid="menu.usermgt.users.detail" permission="write" module="Security" imageurl="secure/images/navup.gif" >
+				<function id="security.admin.usermgt.users.detail.information" caption="Information" resourceid="menu.usermgt.users.information" permission="write" module="Security" url="secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=user&amp;_en=fetchuser" imageurl="secure/images/ico_18_8.gif" />
+				<function id="security.admin.usermgt.users.detail.profiles" caption="Access Profiles" resourceid="menu.usermgt.users.profiles" permission="write" module="Security" url="secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=userprofile&amp;_en=userprofile&amp;plselect=Y" imageurl="secure/images/i16profile.gif" />
+				<function id="security.admin.usermgt.users.detail.workinghours" caption="Working Hours" resourceid="menu.usermgt.users.workinghours" permission="write" module="Security" url="secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=workingmonth&amp;_en=fetch" imageurl="secure/images/ico16work.gif" />
+				<function id="security.admin.usermgt.users.detail.networkaccess" caption="Login IP Ranges" resourceid="menu.usermgt.users.networkaccess" permission="write" module="Security" url="secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=networkaccess&amp;_en=fetchNetworkData" imageurl="secure/images/i16ipres.gif" />
+			</function>
+			<function id="security.admin.usermgt.users.audit" caption="Audit" resourceid="menu.usermgt.users.audit" permission="write" module="Security" imageurl="secure/images/navup.gif" >
+				<function id="security.admin.usermgt.users.audit.logon" caption="Login History" resourceid="menu.usermgt.users.audit.logonhistory" permission="write" module="Security" url="secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=userlogin&amp;_wn=userlogin&amp;_vn=sucesslogonlogoff&amp;today=&amp;" imageurl="secure/images/ico_18_history.gif" />
+				<function id="security.admin.usermgt.users.audit.activity" caption="Activity History" resourceid="menu.usermgt.users.audit.activity" permission="write" module="Security" url="secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=useractivity&amp;_wn=userlogin&amp;_vn=activityhistory&amp;today=&amp;" imageurl="secure/images/i16acthis.gif" />
+			</function>
+			<url id="security.admin.usermgt.onlineusers.108" module="Security" permission="read" url="/secure/sessions.do" />
+			<url id="security.admin.usermgt.users.s1" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="_msfid=secureadmin,_msjsp=usermain" />
+			<url id="security.admin.usermgt.users.s2" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="_msfid=secureadmin,_msjsp=usermain,_pn=user,_en=fetchuser" />
+			<url id="security.admin.usermgt.users.s3" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="_msfid=secureadmin,_msjsp=usermain,_pn=user,_en=fetchcount" />
+			<url id="security.admin.usermgt.users.s4" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=user,_en=fetchcount" />
+			<url id="security.admin.usermgt.users.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=users,_wn=users" />
+			<url id="security.admin.usermgt.users.3" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=businessunitssearch" />
+			<url id="security.admin.usermgt.users.4" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=CRF4J_businessunitssearch" />
+			<url id="security.admin.usermgt.users.5" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=CNI_businessunitssearch" />
+			<url id="security.admin.usermgt.users.6" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=COLLATERAL_businessunitssearch" />
+			<url id="security.admin.usermgt.users.7" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=DIGI_businessunitssearch" />
+			<url id="security.admin.usermgt.users.8" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=LOS_businessunitssearch" />
+			<url id="security.admin.usermgt.users.8.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=DM_businessunitssearch" />
+			<url id="security.admin.usermgt.users.9" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=COLLECTIONS_businessunitssearch" />
+			<url id="security.admin.usermgt.users.10" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=LMS_businessunitssearch" />
+			<url id="security.admin.usermgt.users.11" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=STOCKFUNDING_businessunitssearch" />
+			<url id="security.admin.usermgt.users.12" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=leave_businessunitssearch" />
+			<url id="security.admin.usermgt.users.12.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=DF_businessunitssearch"/>
+			<url id="security.admin.usermgt.users.12.2" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=APF_businessunitssearch"/>
+			<url id="security.admin.usermgt.users.13" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=userssearch" />
+			<url id="security.admin.usermgt.users.14" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=userslist,_en=users" />
+			<url id="security.admin.usermgt.users.15" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=userprofile,_en=userprofile" />
+			<url id="security.admin.usermgt.users.15.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=userprofile,_wn=userprofile,_vn=profilelist" />
+			<url id="security.admin.usermgt.users.16" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=profilemaster,_en=onfetch" />
+			<url id="security.admin.usermgt.users.17" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=profilemaster,_en=updateprofile" />
+			<url id="security.admin.usermgt.users.p18" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=profilemaster,_en=deleteprofile" />
+			<url id="security.admin.usermgt.users.p19" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=profilemaster,_en=copyprofile" />
+			<url id="security.admin.usermgt.users.18" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secureadmin,_pn=networkaccess,_en=fetchNetworkData" />
+			<url id="security.admin.usermgt.users.19" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=networkaccess,_en=fetchNetworkData" />
+			<url id="security.admin.usermgt.users.20" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=networkaccess,_en=updateNetworkData" />
+			<url id="security.admin.usermgt.users.21" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=userslist" />
+			<url id="security.admin.usermgt.users.22" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=user,_en=fetchuser" />
+			<url id="security.admin.usermgt.users.23" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=user,_en=updateuser" />
+			<url id="security.admin.usermgt.users.24" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=businessunitssearch" />
+			<url id="security.admin.usermgt.users.25" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secureadmin,_pn=workinghours,_en=fetchwork" />
+			<url id="security.admin.usermgt.users.26" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workinghours,_en=savework" />
+			<url id="security.admin.usermgt.users.27" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=CRF4J_businessunitssearch" />
+			<url id="security.admin.usermgt.users.28" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=CNI_businessunitssearch" />
+			<url id="security.admin.usermgt.users.29" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=COLLATERAL_businessunitssearch" />
+			<url id="security.admin.usermgt.users.30" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=DIGI_businessunitssearch" />
+			<url id="security.admin.usermgt.users.31" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=LOS_businessunitssearch" />
+			<url id="security.admin.usermgt.users.31.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=DM_businessunitssearch" />
+			<url id="security.admin.usermgt.users.32" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=COLLECTIONS_businessunitssearch" />
+			<url id="security.admin.usermgt.users.33" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=LMS_businessunitssearch" />
+			<url id="security.admin.usermgt.users.34" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=STOCKFUNDING_businessunitssearch" />
+			<url id="security.admin.usermgt.users.35" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=leave_businessunitssearch" />
+			<url id="security.admin.usermgt.users.35.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=DF_businessunitssearch"/>
+			<url id="security.admin.usermgt.users.35.2" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=APF_businessunitssearch"/>
+			<url id="security.admin.usermgt.users.36" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=userssearch" />
+			<url id="security.admin.usermgt.users.37" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=roleuserssearch" />
+			<url id="security.admin.usermgt.users.38" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=roleuserssearch" />
+			<url id="security.admin.usermgt.users.41" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=userlogin,_wn=userlogin,_vn=sucesslogonlogoff"/>
+			<url id="security.admin.usermgt.users.42" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=userlogin,_wn=userlogin,_vn=sucesslogonlogoff"/>
+			<url id="security.admin.usermgt.users.43" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=useractivity,_wn=userlogin,_vn=activityhistory"/>
+			<url id="security.admin.usermgt.users.44" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=userlogin,_wn=userlogin,_vn=activityhistory"/>
+			<url id="security.admin.usermgt.users.46" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workinghours,_en=fetchwork" />
+			<url id="security.admin.usermgt.users.47" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingbreak,_en=fetchbreak" />
+			<url id="security.admin.usermgt.users.48" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingbreak,_en=save" />
+			<url id="security.admin.usermgt.users.49" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingbreak,_en=update" />
+			<url id="security.admin.usermgt.users.50" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingoff,_en=fetchoff" />
+			<url id="security.admin.usermgt.users.51" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingoff,_en=saveworkingoff" />
+			<url id="security.admin.usermgt.users.52" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingoff,_en=updateworkingoff" />
+			<url id="security.admin.usermgt.users.53" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingmonth,_en=fetch" />
+			<url id="security.admin.usermgt.users.54" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingmonth,_en=onload" />
+			<url id="security.admin.usermgt.users.55" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingmonth,_en=delete" />
+			<url id="security.admin.usermgt.users.56" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workinghours,_en=updatework" />
+			<url id="security.admin.usermgt.users.57" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secure,_pn=weblistexport" />
+			<url id="security.admin.usermgt.users.61" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=attributeslist,_en=attributeslist"/>
+			<url id="security.admin.usermgt.users.62" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=entitylist,_en=entity"/>
+			<url id="security.admin.usermgt.users.63" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_wn=attributeslist,_vn=INACTIVEATTRIBUTES"/>
+			<url id="security.admin.usermgt.users.64" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_wn=attributeslist,_vn=ACTIVEATTRIBUTES"/>
+			<url id="security.admin.usermgt.users.65" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_wn=attributeslist,_vn=ALLTHEATTRIBUTES"/>
+			<url id="security.admin.usermgt.users.66" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=LOAD_ATTRIBUTES"/>
+			<url id="security.admin.usermgt.users.67" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=FETCH_ATTRIBUTES"/>
+			<url id="security.admin.usermgt.users.68" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=SAVE_ATTRIBUTES"/>
+			<url id="security.admin.usermgt.users.69" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=FETCH_ATTRIBUTE_LIST"/>
+			<url id="security.admin.usermgt.users.70" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=LOADSECTION"/>
+			<url id="security.admin.usermgt.users.71" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=LOAD_ADD_TO_SECTION"/>
+			<url id="security.admin.usermgt.users.72" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=VALIDATE_DUPLICATE_SECTION"/>
+			<url id="security.admin.usermgt.users.73" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=VALIDATE_DUPLICATE_ATTRIBUTE"/>
+			<url id="security.admin.usermgt.users.74" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=LOAD_LAYOUT"/>
+			<url id="security.admin.usermgt.users.75" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=SAVE_LAYOUT"/>
+			<url id="security.admin.usermgt.users.76" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=FETCHSECTION"/>
+			<url id="security.admin.usermgt.users.77" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=PRINTMODEL"/>
+			<url id="security.admin.usermgt.users.78" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=PRINTHTML"/>
+			<url id="security.admin.usermgt.users.79" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=SAVE_SECTION"/>
+			<url id="security.admin.usermgt.users.80" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=ACTIVATE_DEACTIVATE_ATTRIBUTES"/>
+			<url id="security.admin.usermgt.users.81" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=IMPORT"/>
+			<url id="security.admin.usermgt.users.82" module="Security" permission="write" url="/secure/showsection.do" parametercheck=""/>
+			<url id="security.admin.usermgt.users.83" module="Security" permission="write" url="/secure/screenmain.do" parametercheck="_msfid=secureadmin,_msjsp=udfmain"/>
+			<url id="security.admin.usermgt.users.100" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=udflookups,_vn=alllookups"/>
+			<url id="security.admin.usermgt.users.101" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_pn=udflookups,_wn=udflookups,_vn=alllookups"/>
+			<url id="security.admin.usermgt.users.102" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=countrylist,_vn=countrysearch"/>
+			<url id="security.admin.usermgt.users.103" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=countrylist,_vn=statesearch"/>
+			<url id="security.admin.usermgt.users.104" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=countrylist,_vn=citysearch"/>
+			<url id="security.admin.usermgt.users.105" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=countrylist,_vn=zipsearch"/>
+			<url id="security.admin.usermgt.users.106" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=LOS_portfoliosearch" />
+			<url id="security.admin.usermgt.users.106.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=DM_portfoliosearch" />
+			<url id="security.admin.usermgt.users.107" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=LOS_portfoliosearch" />
+			<url id="security.admin.usermgt.users.107.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=DM_portfoliosearch" />
+			<url id="security.admin.usermgt.users.108" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=COLL_portfoliosearch" />
+			<url id="security.admin.usermgt.users.109" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=COLL_portfoliosearch" />
+			<url id="security.admin.usermgt.users.105" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=IC_businessunitssearch,_vn=activebusinessunits"/>
+			<url id="security.admin.usermgt.users.105" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=submodulesearch,_vn=icsubmodules"/>
+		</menu>
+		<menu id="new.security.admin.usermgt.users" helpid="" caption="BlockUnblock Action" resourceid="menu.usermgt.qckAct" permission="write" module="Security" category="Administrator" url="/secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=userslistnew&amp;_en=userlistnew" imageurl="secure/images/customer.gif">
+			<bulk-operations id="userlistnew" caption="Users" resourceid="menu.usermgt.users">
+				<function id="enable" caption="Enable" resourceid="user.weblist.function.enable"/>
+				<function id="disable" caption="Disable" resourceid="user.weblist.function.disable"/>
+			</bulk-operations>
+			<url id="new.security.admin.usermgt.onlineusers.108" module="Security" permission="read" url="/secure/sessions.do" />
+			<url id="new.security.admin.usermgt.users.s1" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="_msfid=secureadmin,_msjsp=usermain" />
+			<url id="new.security.admin.usermgt.users.s2" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="_msfid=secureadmin,_msjsp=usermain,_pn=user,_en=fetchuser" />
+			<url id="new.security.admin.usermgt.users.s3" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="_msfid=secureadmin,_msjsp=usermain,_pn=user,_en=fetchcount" />
+			<url id="new.security.admin.usermgt.users.s4" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=user,_en=fetchcount" />
+			<url id="new.security.admin.usermgt.users.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=userlistnew,_wn=userlistnew" />
+			<url id="new.security.admin.usermgt.users.3" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.4" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=CRF4J_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.5" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=CNI_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.6" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=COLLATERAL_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.7" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=DIGI_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.8" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=LOS_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.8.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=DM_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.9" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=COLLECTIONS_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.10" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=LMS_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.11" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=STOCKFUNDING_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.12" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=leave_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.12.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=DF_businessunitssearch"/>
+			<url id="new.security.admin.usermgt.users.12.2" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=APF_businessunitssearch"/>
+			<url id="new.security.admin.usermgt.users.13" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=userssearchnew" />
+			<url id="new.security.admin.usermgt.users.14" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=userslistnew,_en=userlistnew" />
+			<url id="new.security.admin.usermgt.users.15" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=userprofile,_en=userprofile" />
+			<url id="new.security.admin.usermgt.users.15.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=userprofile,_wn=userprofile,_vn=profilelist" />
+			<url id="new.security.admin.usermgt.users.16" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=profilemaster,_en=onfetch" />
+			<url id="new.security.admin.usermgt.users.17" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=profilemaster,_en=updateprofile" />
+			<url id="new.security.admin.usermgt.users.p18" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=profilemaster,_en=deleteprofile" />
+			<url id="new.security.admin.usermgt.users.p19" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=profilemaster,_en=copyprofile" />
+			<url id="new.security.admin.usermgt.users.18" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secureadmin,_pn=networkaccess,_en=fetchNetworkData" />
+			<url id="new.security.admin.usermgt.users.19" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=networkaccess,_en=fetchNetworkData" />
+			<url id="new.security.admin.usermgt.users.20" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=networkaccess,_en=updateNetworkData" />
+			<url id="new.security.admin.usermgt.users.21" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=userslistnew" />
+			<url id="new.security.admin.usermgt.users.22" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=user,_en=fetchuser" />
+			<url id="new.security.admin.usermgt.users.23" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=user,_en=updateuser" />
+			<url id="new.security.admin.usermgt.users.24" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.25" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secureadmin,_pn=workinghours,_en=fetchwork" />
+			<url id="new.security.admin.usermgt.users.26" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workinghours,_en=savework" />
+			<url id="new.security.admin.usermgt.users.27" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=CRF4J_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.28" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=CNI_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.29" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=COLLATERAL_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.30" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=DIGI_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.31" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=LOS_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.31.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=DM_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.32" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=COLLECTIONS_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.33" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=LMS_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.34" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=STOCKFUNDING_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.35" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=leave_businessunitssearch" />
+			<url id="new.security.admin.usermgt.users.35.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=DF_businessunitssearch"/>
+			<url id="new.security.admin.usermgt.users.35.2" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=APF_businessunitssearch"/>
+			<url id="new.security.admin.usermgt.users.36" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=userssearchnew" />
+			<url id="new.security.admin.usermgt.users.37" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=roleuserssearchnew" />
+			<url id="new.security.admin.usermgt.users.38" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=roleuserssearchnew" />
+			<url id="new.security.admin.usermgt.users.41" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=userlogin,_wn=userlogin,_vn=sucesslogonlogoff"/>
+			<url id="new.security.admin.usermgt.users.42" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=userlogin,_wn=userlogin,_vn=sucesslogonlogoff"/>
+			<url id="new.security.admin.usermgt.users.43" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=useractivity,_wn=userlogin,_vn=activityhistory"/>
+			<url id="new.security.admin.usermgt.users.44" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=userlogin,_wn=userlogin,_vn=activityhistory"/>
+			<url id="new.security.admin.usermgt.users.46" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workinghours,_en=fetchwork" />
+			<url id="new.security.admin.usermgt.users.47" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingbreak,_en=fetchbreak" />
+			<url id="new.security.admin.usermgt.users.48" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingbreak,_en=save" />
+			<url id="new.security.admin.usermgt.users.49" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingbreak,_en=update" />
+			<url id="new.security.admin.usermgt.users.50" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingoff,_en=fetchoff" />
+			<url id="new.security.admin.usermgt.users.51" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingoff,_en=saveworkingoff" />
+			<url id="new.security.admin.usermgt.users.52" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingoff,_en=updateworkingoff" />
+			<url id="new.security.admin.usermgt.users.53" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingmonth,_en=fetch" />
+			<url id="new.security.admin.usermgt.users.54" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingmonth,_en=onload" />
+			<url id="new.security.admin.usermgt.users.55" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workingmonth,_en=delete" />
+			<url id="new.security.admin.usermgt.users.56" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=workinghours,_en=updatework" />
+			<url id="new.security.admin.usermgt.users.57" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secure,_pn=weblistexport" />
+			<url id="new.security.admin.usermgt.users.61" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=attributeslist,_en=attributeslist"/>
+			<url id="new.security.admin.usermgt.users.62" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=entitylist,_en=entity"/>
+			<url id="new.security.admin.usermgt.users.63" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_wn=attributeslist,_vn=INACTIVEATTRIBUTES"/>
+			<url id="new.security.admin.usermgt.users.64" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_wn=attributeslist,_vn=ACTIVEATTRIBUTES"/>
+			<url id="new.security.admin.usermgt.users.65" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_wn=attributeslist,_vn=ALLTHEATTRIBUTES"/>
+			<url id="new.security.admin.usermgt.users.66" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=LOAD_ATTRIBUTES"/>
+			<url id="new.security.admin.usermgt.users.67" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=FETCH_ATTRIBUTES"/>
+			<url id="new.security.admin.usermgt.users.68" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=SAVE_ATTRIBUTES"/>
+			<url id="new.security.admin.usermgt.users.69" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=FETCH_ATTRIBUTE_LIST"/>
+			<url id="new.security.admin.usermgt.users.70" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=LOADSECTION"/>
+			<url id="new.security.admin.usermgt.users.71" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=LOAD_ADD_TO_SECTION"/>
+			<url id="new.security.admin.usermgt.users.72" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=VALIDATE_DUPLICATE_SECTION"/>
+			<url id="new.security.admin.usermgt.users.73" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=VALIDATE_DUPLICATE_ATTRIBUTE"/>
+			<url id="new.security.admin.usermgt.users.74" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=LOAD_LAYOUT"/>
+			<url id="new.security.admin.usermgt.users.75" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=SAVE_LAYOUT"/>
+			<url id="new.security.admin.usermgt.users.76" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=FETCHSECTION"/>
+			<url id="new.security.admin.usermgt.users.77" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=PRINTMODEL"/>
+			<url id="new.security.admin.usermgt.users.78" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=PRINTHTML"/>
+			<url id="new.security.admin.usermgt.users.79" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=SAVE_SECTION"/>
+			<url id="new.security.admin.usermgt.users.80" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=ACTIVATE_DEACTIVATE_ATTRIBUTES"/>
+			<url id="new.security.admin.usermgt.users.81" module="Security" permission="write" url="/secure/udf.do" parametercheck="ACTION=IMPORT"/>
+			<url id="new.security.admin.usermgt.users.82" module="Security" permission="write" url="/secure/showsection.do" parametercheck=""/>
+			<url id="new.security.admin.usermgt.users.83" module="Security" permission="write" url="/secure/screenmain.do" parametercheck="_msfid=secureadmin,_msjsp=udfmain"/>
+			<url id="new.security.admin.usermgt.users.100" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=udflookups,_vn=alllookups"/>
+			<url id="new.security.admin.usermgt.users.101" module="Security" permission="write" url="/secure/weblist.do" parametercheck="_pn=udflookups,_wn=udflookups,_vn=alllookups"/>
+			<url id="new.security.admin.usermgt.users.102" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=countrylist,_vn=countrysearch"/>
+			<url id="new.security.admin.usermgt.users.103" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=countrylist,_vn=statesearch"/>
+			<url id="new.security.admin.usermgt.users.104" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=countrylist,_vn=citysearch"/>
+			<url id="new.security.admin.usermgt.users.105" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=countrylist,_vn=zipsearch"/>
+			<url id="new.security.admin.usermgt.users.106" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=LOS_portfoliosearch" />
+			<url id="new.security.admin.usermgt.users.106.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=DM_portfoliosearch" />
+			<url id="new.security.admin.usermgt.users.107" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=LOS_portfoliosearch" />
+			<url id="new.security.admin.usermgt.users.107.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=DM_portfoliosearch" />
+			<url id="new.security.admin.usermgt.users.108" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=COLL_portfoliosearch" />
+			<url id="new.security.admin.usermgt.users.109" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=COLL_portfoliosearch" />
+			<url id="new.security.admin.usermgt.users.105" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=IC_businessunitssearch,_vn=activebusinessunits"/>
+			<url id="new.security.admin.usermgt.users.105" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=submodulesearch,_vn=icsubmodules"/>
+		</menu>
+		<menu id="security.admin.separator1" helpid="" caption="-" resourceid="-" permission="" module="Security" url="" parameters="" imageurl="">
+		</menu>
+<menu id="security.admin.weblist.installedproduct" helpid="" caption="Installed Products" resourceid="admin.weblist.installedproduct" permission="write" module="Security" url="/secure/productinstalled.do" parameters="ACTION=FETCH" imageurl="secure/images/products16.gif">
+				<bulk-operations id="installedproduct" caption="Installed Products" resourceid="admin.weblist.installedproduct">
+					<function id="addproduct" caption="Add Product" resourceid="function.product.addproduct"/>
+					<function id="upgradeproduct" caption="Upgrade Product" resourceid="function.product.upgradeproduct"/>
+				</bulk-operations>
+				<url id="security.menu.weblist.installedproduct.1" module="Security" permission="write" url="/secure/licensewizards.do" parametercheck=""/>
+				<url id="security.menu.weblist.installedproduct.2" module="Security" permission="write" url="/secure/productlicense.do" parametercheck="ACTION=FETCH"/>
+				<url id="security.menu.weblist.installedproduct.3" operation="installedproduct:addproduct" module="Security" permission="write" url="/secure/productlicense.do" parametercheck="ACTION=INSERTLICENSE"/>
+				<url id="security.menu.weblist.installedproduct.4" operation="installedproduct:upgradeproduct" module="Security" permission="write" url="/secure/productlicense.do" parametercheck="ACTION=UPDATELICENSE"/>
+				<url id="security.menu.weblist.installedproduct.5" module="Security" permission="write" url="/secure/productinstalled.do" parametercheck="ACTION=FETCH"/>
+			</menu>
+
+			<menu id="security.admin.securitypolicies" caption="Security Policies" resourceid="menu.weblist.SecurityPolicies" permission="Y" module="Security" url="/secure/gcm.do" parameters="plevel=O" imageurl="secure/images/mpolicy.gif">
+				<url id="system.gcm.111" module="Security" permission="read" url="secure/admin/settings.do" />
+				<url id="system.gcm.211" module="Security" permission="write" url="secure/admin/settings.do" />
+				<url id="system.gcm.311" module="Security" permission="write" url="secure/admin/gcm.do" />
+				<url id="system.gcm.411" module="Security" permission="read" url="secure/weblist.do" parametercheck="_fid=secureadmin,_pn=gcmaudit,_en=gcmgroupaudit"/>
+				<url id="system.gcm.511" module="Security" permission="read" url="secure/weblist.do" parametercheck="_pn=gcmgroupaudit,_wn=gcmgroupaudit,_vn=audit"/>
+				<url id="system.gcm.611" module="Security" permission="read" url="secure/weblist.do" parametercheck="_fid=secureadmin,_pn=gcmsettingsaudit,_en=gcmsettingsaudit"/>
+				<url id="system.gcm.711" module="Security" permission="write" url="secure/testmail.do" />
+				<url id="system.gcm.811" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secure,_pn=weblistexport" />
+				<url id="system.gcm.911" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_wn=userssearch,_vn=enableusers" />
+			</menu>
+			
+			<menu id="system.centralizedlookups.security" caption="Manage Lookups" resourceid="menu.centralizedlookups.security" permission="Y" module="Security" url="/secure/centralizedlookup.do" parameters="areaid=security" imageurl="secure/images/mlookup.gif">
+				<url id="system.lookups.1" module="Security" permission="read" url="secure/lookup.do" />
+				<url id="system.lookups.2" module="Security" permission="write" url="secure/lookup.do" />
+			</menu>
+			
+		<menu id="security.admin.separator2" helpid="" caption="-" resourceid="-" permission="" module="Security" url="" parameters="" imageurl="">
+		</menu>
+		<menu id="security.admin.usermgt.onlineusers" helpid="" caption="Online Users" resourceid="admin.usermgt.onlineusers" permission="write" module="Security" category="Administrator" url="/secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=sessions&amp;_en=onlineusers" imageurl="secure/images/LandingPageIcons/Online-User.png">
+			<bulk-operations id="onlineusers" caption="Online Users" resourceid="admin.usermgt.onlineusers">
+				<function id="logoutuser" caption="Logout Users" resourceid="user.weblist.function.logout"/>
+				<function id="sendalert" caption="Send Alert" resourceid="user.weblist.function.sendalert"/>
+			</bulk-operations>
+			<url id="security.admin.usermgt.onlineusers.1" module="Security" permission="read" url="/secure/sessions.do" />
+<url id="security.admin.usermgt.onlineusers.6" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=sessions,_en=onlineusers"/>
+			<url id="security.admin.usermgt.onlineusers.2" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=onlineusers,_wn=onlineusers"/>
+			<url id="security.admin.usermgt.onlineusers.3" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=weblistsearch,_wn=businessunitssearch"/>
+			<url id="security.admin.usermgt.onlineusers.4" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=businessunitssearch,_vn=activebusinessunits,_wn=businessunitssearch"/>
+			<url id="security.admin.usermgt.onlineusers.5" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=sessions"/>
+		</menu>
+		<menu id="system.admin.dashboard" helpid="" caption="Dashboard" resourceid="dashboard.menu" permission="write" module="Security" url="/secure/dashboard.do" parameters="_action=load" imageurl="secure/images/mhealthm.gif">
+				<url id="system.admin.dashboard.1" module="Security" permission="read" url="/secure/dashboard.do"/>
+				<url id="system.admin.dashboard.2" module="Security" permission="read" url="/secure/dashboard.do"   parametercheck="_action=load"/>
+				<url id="system.admin.dashboard.3" module="Security" permission="read" url="/secure/BRMS.do"/>
+			</menu>
+			<menu id="security.admin.securitylog" helpid="" caption="Security Event Log" resourceid="admin.weblist.SecurityLog" permission="Y" module="Security" url="/secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=SecurityEventLog&amp;_en=SecurityEventLog&amp;today=&amp;" imageurl="secure/images/meventlog.gif">
+				<url id="security.admin.securitylog.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=SecurityEventLog,_wn=SecurityEventLog" />
+				<url id="security.admin.securitylog.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=SecurityEventLog,_en=SecurityEventLog" />
+				<url id="security.admin.securitylog.2" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secure,_pn=weblistexport" />
+				<url id="security.admin.securitylog.3" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=SecurityEventLog,_en=SecurityEventLog" />
+			</menu>
+		
+		<menu id="security.admin.separator4" helpid="" caption="-" resourceid="-" permission="" module="Security" url="" parameters="" imageurl="">
+			</menu>
+			<menu id="security.admin.webservice.account" helpid="" caption="Web Service Account" resourceid="admin.webservice.account" permission="Y" module="Security" url="/secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=serviceuserlist&amp;_en=serviceusers" imageurl="secure/images/mserviceus.gif">
+				<bulk-operations id="serviceusers" caption="Web Service Account" resourceid="admin.webservice.account">
+					<function id="newuser" caption="New User" resourceid="serviceuser.weblist.function.new"/>
+					<function id="enable" caption="Enable" resourceid="serviceuser.weblist.function.enable"/>
+					<function id="disable" caption="Disable" resourceid="serviceuser.weblist.function.disable"/>
+					<function id="resetpassword" caption="Reset Password" resourceid="serviceuser.weblist.function.reset.password"/>
+				</bulk-operations>
+				<function id="security.admin.webservice.account.detail" caption="Details" resourceid="menu.webservice.account.detail" permission="write" module="Security" imageurl="secure/images/navup.gif" >
+					<function id="security.admin.webservice.account.detail.information" caption="Information" resourceid="menu.webservice.account.information" permission="write" module="Security" url="secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=serviceuser&amp;_en=loadServiceUser" imageurl="secure/images/mserviceus.gif" />
+					<function id="security.admin.webservice.account.detail.configuration" caption="Configuration" resourceid="menu.webservice.account.configuration" permission="write" module="Security" url="secure/BRMS.do" parameters="_fid=secureadmin&amp;_pn=serviceconfiguaration&amp;_en=configuaration" imageurl="secure/images/webserviceaccess16.gif"/>
+				</function>
+				<url id="security.admin.webservice.account.s1" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="_msfid=secureadmin,_msjsp=serviceusermain"/>
+				<url id="security.admin.webservice.account.s2" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="_msfid=secureadmin,_msjsp=serviceusermain,_pn=serviceuser,_en=loadServiceUser"/>
+				<url id="security.admin.webservice.account.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=serviceusers,_wn=serviceusers"/>
+				<url id="security.admin.webservice.account.2" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secureadmin,_pn=serviceuserlist,_en=serviceusers"/>
+				<url id="security.admin.webservice.account.3" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=serviceuser,_en=loadServiceUser"/>
+				<url id="security.admin.webservice.account.4" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=serviceconfiguaration,_en=configuaration"/>
+				<url id="security.admin.webservice.account.5" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=serviceconfiguaration,_en=updateserviceconfiguaration"/>
+				<url id="security.admin.webservice.account.6" operation="serviceusers:enable" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=serviceuserlist,_en=enableserviceuser"/>
+				<url id="security.admin.webservice.account.7" operation="serviceusers:disable" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=serviceuserlist,_en=disableserviceuser"/>
+				<url id="security.admin.webservice.account.8" operation="serviceusers:resetpassword" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=serviceuserlist,_en=resetpassword"/>
+				<url id="security.admin.webservice.account.9" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=serviceuser,_en=updateserviceuser"/>
+				<url id="security.admin.webservice.account.10" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=serviceuser,_en=disableserviceuser"/>
+				<url id="security.admin.webservice.account.11" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=serviceuser,_en=enableserviceuser"/>
+				<url id="security.admin.webservice.account.12" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=serviceuser,_en=resetpassword"/>
+			</menu>
+		</menu>
+		<menu id="security.businessmgt" helpid="" caption="Business Management" resourceid="menu.business" module="Security" url="" parameters="" imageurl="secure/images/mbusinessman.gif" >
+			<menu id="security.businessmgt.announcement" helpid="" caption="Announcement" resourceid="announcement.menu.security.weblist" permission="Y" module="Security" url="/secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=announcementweblist&amp;_en=announcements&amp;today=&amp;" imageurl="secure/images/news.gif">
+				<bulk-operations id="announcements" caption="Announcement" resourceid="announcement.menu.security.weblist">
+					<function id="new" caption="New Announcement" resourceid="announcement.weblist.function.new"/>
+					<function id="expire" caption="Expire Announcement" resourceid="announcement.weblist.function.expire"/>
+				</bulk-operations>
+				<url id="security.businessmgt.announcement.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=announcements,_wn=announcements"/>
+				<url id="security.businessmgt.announcement.2" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=announcementweblist,_en=announcements"/>
+				<url id="security.businessmgt.announcement.3" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=announcementweblist"/>
+				<url id="security.businessmgt.announcement.4" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=announcement,_en=fetchAnnouncement"/>
+				<url id="security.businessmgt.announcement.5" operation="announcements:new" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_fid=secureadmin,_pn=announcement"/>
+				<url id="security.businessmgt.announcement.6" operation="announcements:expire" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=announcement,_en=expireannouncement"/>
+				<url id="security.businessmgt.announcement.7" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=announcement,_en=updateAnnouncement"/>
+			</menu>
+			
+		</menu>
+		
+	<menu id="security.batch.management" helpid="" caption="Batch Management" resourceid="Batch Management" permission="read" module="Security" category="Designer" url="" parameters="" imageurl="secure/images/LandingPageIcons/Batch-Management.png">
+		<menu id="security.batch.partition" helpid="" caption="Partitions" resourceid="Partitions" permission="write" module="Security" category="Administrator" url="/secure/weblist.do" parameters="_fid=securebatch&amp;_pn=partitiontypelist&amp;_en=partitiontypelist" imageurl="secure/images/LandingPageIcons/partition.png" >
+			<bulk-operations id="partitiontypelist" caption="Partitions" resourceid="Partitions">
+				<function id="newparitiontype" caption="New Partition..." resourceid="batch.partitiontypelist.bo.new"/>
+				<function id="enable" caption="Enable" resourceid="weblist.batchList.enable"/>
+				<function id="disable" caption="Disable" resourceid="weblist.batchList.disable"/>
+			</bulk-operations>
+			<function id="security.batch.batchpartitionmain.detail" caption="Details" resourceid="Details" permission="write" module="Security" imageurl="secure/images/navup.gif" >
+				<function id="security.batch.batchpartitionmain.detail.information" caption="Information" resourceid="Information" permission="write" module="Security" url="secure/BRMS.do" parameters="_fid=securebatch&amp;_pn=partition&amp;_en=fetchDetails" imageurl="secure/images/partition.png" />
+			</function>
+			<url id="security.batch.batchpartitionmain.s1" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="_msfid=securebatch,_msjsp=partitionmain" />
+			<url id="security.batch.batchpartitionmain.s2" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="_msfid=securebatch,_msjsp=partitionmain,_pn=partition,_en=fetchDetails"/>
+			<url id="security.batch.batchpartitionmain.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=partitiontypelist,_vn=activepartitiontype" />
+	 
+			<url id="security.batch.batchpartitionmain.2" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=securebatch,_pn=partitiontypelist,_vn=activepartitiontype"/>
+			<url id="security.batch.batchpartitionmain.3" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=securebatch,_pn=partition,_en=fetchDetails"/>
+			<url id="security.batch.batchpartitionmain.4" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_pn=partition,_en=fetchDetails"/>
+			<url id="security.batch.partition.1" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=partitiontypelist,_wn=partitiontypelist"/>
+			<url id="security.batch.partition.2" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=partitiontypelist,_en=partitiontypelist"/>
+			<url id="security.batch.partition.3" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=partition,_en=UpdateDetails"/>
+			<url id="security.batch.partition.4" operation="partitiontypelist:enable" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=partition,_en=enablepartitiontype"/>
+			<url id="security.batch.partition.5" operation="partitiontypelist:disable" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=partition,_en=disablepartitiontype"/>
+		</menu>
+		
+		<menu id="security.batch.schedule" helpid="" caption="Execution Plans" resourceid="Execution Plans" permission="write" module="Security" category="Administrator" url="/secure/weblist.do" parameters="_fid=securebatch&amp;_pn=batchschedulelist&amp;_en=batchschedulelist" imageurl="secure/images/LandingPageIcons/Execution-Plan.png" >
+
+			<bulk-operations id="batchschedulelist" caption="Execution Plans" resourceid="Execution Plans">
+				<function id="activateSchedule" caption="Enable" resourceid="weblist.batch.schedule.enable"/>
+				<function id="deactivateSchedule" caption="Disable" resourceid="weblist.batch.schedule.disable"/>
+				<function id="export" caption="Export..." resourceid="weblist.function.export"/>
+			</bulk-operations>
+			<url id="security.batch.schedule.22" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=secure,_pn=batchschedulelist,_wn=batchschedulelist" />
+			<url id="security.batch.schedule.23" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=schedulesearch" />
+			<url id="security.batch.schedule.33" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=schedulesearch,_wn=schedulesearch" />
+			<url id="security.batch.schedule.44" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=executedprocesslist,_wn=ProcessStatus" />
+			<url id="security.batch.schedule.55" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=batchschedulelist" />
+			<url id="security.batch.schedule.66" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=batchschedule,_en=enableschedule" />
+			<url id="security.batch.schedule.77" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=batchschedule,_en=disableschedule" />
+			<url id="security.batch.schedule.88" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=disableschedule" />
+			<url id="security.batch.schedule.99" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=enableschedule" />
+			<url id="security.batch.schedule.100" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=ExecutedBatch"/>
+			<url id="security.batch.schedule.101" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=executedBatch"/>
+			<url id="security.batch.schedule.102" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=ProcessStatus"/>
+			<url id="security.batch.schedule.103" module="Security" permission="read" url="/secure/batch.do"  parametercheck="_action=_weblist,_wn=BatchTraceLog"/>
+			<url id="security.batch.schedule.104" module="Security" permission="read" url="/secure/weblist.do"  parametercheck="_pn=BatchTraceLog"/>
+			<url id="security.batch.schedule.8" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secure,_pn=weblistexport" />
+	</menu>
+		<menu id="security.batch.controlcenter" helpid="" caption="Batch Control Center" resourceid="Batch Control Center" permission="write" module="Security" category="Administrator" url="/secure/batch.do" parameters="_action=controlcenter" imageurl="secure/images/LandingPageIcons/Batch-Control-Center.png">
+			<url id="security.batch.controlcenter.1" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=controlcenter" />
+			<url id="security.batch.controlcenter.2" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=fetchexecutionflow" />
+			<url id="security.batch.controlcenter.3" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=executeBatch" />
+			<url id="security.batch.controlcenter.4" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=restartBatch" />
+			<url id="security.batch.controlcenter.5" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=abortBatch" />
+			<url id="security.batch.controlcenter.6" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=fetchchildflow" />
+			<url id="security.batch.controlcenter.7" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=fetchexecutionxml" />
+			<url id="security.batch.controlcenter.8" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=fetchtracelog" />
+			<url id="security.batch.controlcenter.9" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=executionsummary" />
+			<url id="security.batch.controlcenter.10" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=getbatchchart" />
+			<url id="security.batch.controlcenter.11" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_fid=securebatch,_pn=batchcontrolcenter,_en=fetchDetails,_jsp=executepartitions" />
+			<url id="security.batch.controlcenter.12" module="Security" permission="read" url="/secure/batch.do"  parametercheck="_action=legend"/>
+		</menu>
+		<menu id="security.batch.log" helpid="" caption="Execution Log" resourceid="Execution Log" permission="Y" module="Security" category="Administrator" url="/secure/weblist.do" parameters="_fid=securebatch&amp;_pn=executedBatch&amp;_en=ExecutedBatch&amp;today=&amp;" imageurl="secure/images/LandingPageIcons/Execution-Log.png">
+			<url id="security.batch.log.1" module="Security" permission="read" url="/secure/weblist.do"  parametercheck="_pn=executedBatch,_en=ExecutedBatch"/>
+			<url id="security.batch.log.2" module="Security" permission="read" url="/secure/weblist.do"  parametercheck="_pn=ExecutedBatch"/>
+			<url id="security.batch.log.3" module="Security" permission="read" url="/secure/weblist.do"  parametercheck="_pn=executedBatch,_en=ExecutedBatch"/>
+			<url id="security.batch.log.4" module="Security" permission="read" url="/secure/weblist.do"  parametercheck="_pn=executedprocesslist"/>
+			<url id="security.batch.log.5" module="Security" permission="read" url="/secure/weblist.do"  parametercheck="_pn=ProcessStatus"/>
+			<url id="security.batch.log.6" module="Security" permission="read" url="/secure/weblist.do"  parametercheck="_pn=BatchTraceLog"/>
+			<url id="security.batch.log.7" module="Security" permission="read" url="/secure/batch.do"  parametercheck="_action=_weblist,_wn=BatchTraceLog"/>
+			<url id="security.batch.log.8" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secure,_pn=weblistexport" />
+		</menu>
+		<menu id="security.batch.separator.s1" helpid="" caption="-" resourceid="-" permission="" module="Security" url="" parameters="" imageurl=""/>
+		<menu id="security.batch.dd" helpid="" caption="Data Discovery" resourceid="menu.batchdatadiscovery" permission="Y" module="Security" category="Administrator" url="/secure/batch.do" parameters="_action=_openArchivalSearch" imageurl="secure/images/LandingPageIcons/Data-Discovery.png">
+			<url id="security.batch.dd.1" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=_searchArchivalData"/>
+			<url id="security.batch.dd.2" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=_viewDataXml"/>
+			<url id="security.batch.dd.3" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=_drawEntitiesGrid"/>
+			<url id="security.batch.dd.4" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=_viewLobData"/>
+			<url id="security.batch.dd.5" module="Security" permission="write" url="/secure/batch.do" parametercheck="_action=_openArchivalSearch" />
+		</menu>
+	</menu>
+	<!--http://localhost/csfweb/secure/weblist.do?_fid=securebatch&_pn=bf_batchList&_en=bf_batchList-->
+		<menu id="batchprocessing" helpid="" caption="Batch" resourceid="Batch" module="Security" category="Designer" url="" parameters="" imageurl="secure/images/LandingPageIcons/Batch.png" >
+		<menu id="security.batch.batchframework" helpid="" caption="Batch Designer" resourceid="Batch Designer" permission="Y" module="Security" category="Designer" url="/secure/weblist.do" parameters="_fid=securebatch&amp;_pn=bf_batchList&amp;_en=bf_batchList" imageurl="secure/images/LandingPageIcons/Batch-Designer.png">
+				<bulk-operations id="bf_batchList" caption="Batch Jobs" resourceid="Batch Jobs">
+					<function id="newbatch" caption="New Batch..." resourceid="batch.function.newbatch"/>
+					<function id="copybatch" caption="Copy Batch" resourceid="batch.function.copybatch"/>
+					<function id="enable" caption="Enable" resourceid="Enable"/>
+					<function id="disable" caption="Disable" resourceid="Disable"/>
+					<function id="exporttoexcel" caption="Export..." resourceid="weblist.function.export"/>
+				</bulk-operations>
+				
+				
+				<!--http://localhost/csfweb/secure/weblist.do?_fid=securebatch&_pn=bf_batchList&_en=bf_batchList-->
+				<function id="security.batch.batchframework.detail" caption="Details" resourceid="menu.businessunit.detail" permission="write" module="Security" imageurl="secure/images/navup.gif" >
+					<function id="security.batch.batchframework.information" caption="Information" resourceid="Information" permission="write" module="Security" url="secure/BRMS.do" parameters="_fid=securebatch&amp;_pn=batch&amp;_en=fetchDetails" imageurl="secure/images/batchjob.gif" />
+					<function id="security.batch.datasourcemain.detail.scheduling" caption="Scheduling" resourceid="Scheduling" permission="write" module="Security" url="secure/BRMS.do" parameters="_fid=securebatch&amp;_pn=batchschedule&amp;_en=fetchDetails" imageurl="secure/images/schedule.gif" />
+				</function>
+				<function id="security.batch.batchframework.monitor" caption="Monitoring" resourceid="Monitoring" permission="write" module="Security" imageurl="secure/images/navup.gif" >
+					<function id="security.batch.batchframework.runbook" caption="Runbook" resourceid="Runbook" permission="write" module="Security" url="secure/weblist.do" parameters="_fid=securebatch&amp;_pn=runbook&amp;_wn=runbook&amp;_vn=runbook&amp;today=&amp;" imageurl="secure/images/runbook.png" />
+				</function>
+				<url id="security.batch.batchframework.s1" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="_msfid=securebatch,_msjsp=batchmain" />
+				<url id="security.batch.batchframework.s2" module="Security" permission="read" url="/secure/screenmain.do" parametercheck="_msfid=securebatch,_msjsp=batchmain,_pn=batch,_en=fetchDetails" />
+				<url id="security.batch.batchframework.19" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=BatchList,_wn=BatchList" />
+				<url id="security.batch.batchframework.20" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=batchList,_en=BatchList" />
+				<!--http://localhost/csfweb/secure/screenmain.do?_msfid=securebatch&_msjsp=batchmain&_pn=batch&_en=fetchDetails-->
+				<url id="security.batch.batchframework.23" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=process_list_batch,_wn=ProcessList" />
+				<url id="security.batch.batchframework.25" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch" />
+				<url id="security.batch.batchframework.31" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=bf_batchList"/>
+				<url id="security.batch.batchframework.311" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=securebatch,_pn=bf_batchList,_en=bf_batchList"/>
+	
+				<url id="security.batch.batchframework.32" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=partitionSearch,_wn=partitionSearch"/>
+				<url id="security.batch.batchframework.33" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_fid=securebatch,_pn=runbook,_wn=runbook,_vn=runbook"/>
+				<url id="security.batch.batchframework.33" module="Security" permission="read" url="/secure/weblist.do" parametercheck="_pn=runbook,_wn=runbook"/>
+				<url id="security.batch.batchframework.1" module="Security" permission="write" url="/secure/BRMS.do" parametercheck="_pn=batch"/>
+				<url id="security.batch.batchframework.2" module="Security" permission="read" url="/secure/BRMS.do" parametercheck="_fid=secure,_pn=weblistexport" />
+				<url id="security.batch.designer1.1" module="Security" permission="write" url="/secure/batchdesigner.do"  parametercheck=""/>
+				<url id="security.batch.designer1.3" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=stepprocedurecall"/>
+				<url id="security.batch.designer1.4" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=stepwebservice"/>
+				<url id="security.batch.designer1.5" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=stepftptransfer"/>
+				<url id="security.batch.designer1.6" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=stepdeldir"/>
+				<url id="security.batch.designer1.7" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=steprenmov"/>
+				<url id="security.batch.designer1.8" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=stepunzipfile"/>
+				<url id="security.batch.designer1.9" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=stepftpdelete"/>
+				<url id="security.batch.designer1.10" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=stepftpwtime"/>
+				<url id="security.batch.designer1.11" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=stepftpzip"/>
+				<url id="security.batch.designer1.12" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=stepftpbroadcast"/>
+				<url id="security.batch.designer1.13" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=stepifcondition"/>
+				<url id="security.batch.designer1.14" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=stepftpalert"/>
+				<url id="security.batch.designer1.15" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=stepchildbatch"/>
+				<url id="security.batch.designer1.16" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=stepftp"/>
+				<url id="security.batch.designer1.17" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=stepfile"/>
+				<url id="security.batch.designer1.18" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=batchschedule"/>
+				<url id="security.batch.designer1.188" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=batchschedule,_en=saveBatchSchedule"/>
+				<url id="security.batch.designer1.19" module="Security" permission="write" url="/secure/weblist.do"  parametercheck="_pn=weblistsearch,_wn=ftpBroadcastSearch"/>
+				<url id="security.batch.designer1.20" module="Security" permission="write" url="/secure/batch.do"  parametercheck="_action=savebatchas"/>
+				<url id="security.batch.designer1.21" module="Security" permission="write" url="/secure/batch.do"  parametercheck="_action=loadBatch"/>
+				<url id="security.batch.designer1.22" module="Security" permission="write" url="/secure/batch.do"  parametercheck="_action=fetchflow"/>
+				<url id="security.batch.designer1.222" module="Security" permission="write" url="/secure/batch.do"  parametercheck="_action=saveflow"/>
+			 
+				<url id="security.batch.designer1.23" module="Security" permission="write" url="/secure/batch.do"  parametercheck="_action=saveflow"/>
+				<url id="security.batch.designer1.24" module="Security" permission="write" url="/secure/batch.do"  parametercheck="_action=loadstep"/>
+				<url id="security.batch.bf.schedule.1" module="Security" permission="write" url="/secure/batch.do"  parametercheck="_action=saveschedule"/>
+				<url id="security.batch.list.1" module="Security" permission="write" url="/secure/batch.do"  parametercheck="_action=_deactivate"/>
+				<url id="security.batch.list.11" module="Security" permission="write" url="/secure/batch.do"  parametercheck="_action=_deactivate,_pn=batch,_en=disablebatch"/>
+				<!--/csfweb/secure/batch.do?_pn=batch&_en=disablebatch-->
+				<url id="security.batch.list.2" module="Security" permission="write" url="/secure/batch.do"  parametercheck="_action=_activate"/>
+				<url id="security.batch.designer1.25" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=dataarchival"/>
+				<url id="security.batch.designer1.26" module="Security" permission="write" url="/secure/batch.do"  parametercheck="_action=_fetchnames"/>
+				<url id="security.batch.designer1.27" module="Security" permission="write" url="/secure/BRMS.do"  parametercheck="_pn=stepsql"/>
+				<url id="security.batch.designer1.28" module="Security" permission="write" url="/secure/weblist.do"  parametercheck="_pn=weblistsearch,_wn=alertcategory"/>
+				<url id="security.batch.designer1.29" module="Security" permission="write" url="/secure/weblist.do"  parametercheck="_pn=alertcategory,_wn=alertcategory"/>
+				<url id="security.batch.designer1.30" module="Security" permission="write" url="/secure/batch.do"  parametercheck="_action=_fetchEntities"/>
+				<url id="security.batch.designer1.31" module="Security" permission="read" url="/secure/batch.do"  parametercheck="_action=legend"/>
+				<url id="security.batch.designer1.27" module="Security" permission="write" url="/secure/BRMS.do"/>
+			</menu>
+	</menu>
+	
+		
+	 
+</menus>
+

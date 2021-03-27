@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus>
+	<common-url>
+		<url id="app.loader" url="secure/loader.do" />
+		<url id="app.main" url="secure/main.do" />
+		<url id="app.header" url="secure/header.do" />
+		<url id="app.menu" url="/secure/menu.do" />
+		<url id="app.blank" url="secure/blank.do" />
+		<url id="app.switch" url="/secure/switch.do" />
+		<url id="app.logout" url="/secure/logout.do" />
+		<url id="app.help" url="/secure/help.do" />
+		<url id="app.msgbox" url="/secure/msgbox.do" />
+		<url id="app.calender" url="/secure/calender.do" />
+	</common-url>
+		<menu id="assetMaster" helpid="" caption="Asset" resourceid="cpf.ast.masters" module="ASSET" category="Configurator" url="" parameters="" imageurl="" >
+			<menu id="cpf.astclass" helpid="6" caption="Asset Class" resourceid="cpf.masters.assetmaster" permission="write" category="Configurator" module="ASSET" url="/secure/weblist.do" parameters="_fid=secureAsset&amp;_pn=ast_m_assetclass&amp;_en=assetclasslist" imageurl="" >
+				<url id="ast.master.all.1" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=ast_m_assetclass,_wn=assetclasslist" />
+				<url id="ast.master.all.2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=assetclasslist,_wn=assetclasslist" />
+				<url id="ast.master.all.3" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetclass" />
+				<url id="ast.master.all.9" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_fid=secureAsset,_pn=ast_m_assetclass,_en=assetclasslist" />
+				<url id="ast.master.all.10" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetclass,_en=activate_class" />
+				<url id="ast.master.all.11" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetclass,_en=deactivate_class" />
+				<url id="ast.master.all.12" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetclass,_en=editclass" />	
+				<url id="ast.master.all.16" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=assetclasslist" />
+				<url id="ast.master.all.18" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=assetclasslist,_wn=assetclasslist" />
+				<url id="ast.master.all.popsearch" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=astdepreciationlist"/>
+				<url id="ast.master.all.popsearch1" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=astdepreciationlist,_wn=astdepreciationlist" />
+			</menu>
+		<menu id="cpf.master.asset.asttype" helpid="5" caption="Asset Types" resourceid="cpf.masters.assetmaster" permission="write" module="ASSET" category="Configurator" url="/secure/weblist.do" parameters="_fid=secureAsset&amp;_pn=ast_m_assettype&amp;_en=assettypelist" imageurl="" >
+			<url id="ast.master.all.1" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=ast_m_assettype,_wn=assettypelist" />
+			<url id="ast.master.all.2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=assettypelist,_wn=assettypelist" />
+			<url id="ast.master.all.3" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assettype" />
+			<url id="ast.master.all.9" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_fid=secureAsset,_pn=ast_m_assettype,_en=assettypelist" />
+			<url id="ast.master.all.10" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assettype,_en=activate_class" />
+			<url id="ast.master.all.11" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assettype,_en=deactivate_class" />
+			<url id="ast.master.all.12" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assettype,_en=editclass" />	
+			<url id="ast.master.all.16" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=assettypelist" />
+			<url id="ast.master.all.18" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=assetclasslist,_wn=assettypelist" />
+			<url id="ast.master.all.popsearch2" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=astdepreciationlist"/>
+			<url id="ast.master.all.popsearch3" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=astdepreciationlist,_wn=astdepreciationlist" />
+			<url id="ast.mst.type.assettypemaster.onLoad1" module="ASSET" permission="write" url="/secure/BRMS.do" parameters="_fid=secureAsset&amp;_pn=ast_m_assettypemaster&amp;_en=onLoad" />			
+			<url id="ast.mst.type.assettypemaster.onLoad" module="ASSET" permission="read" url="/secure/BRMS.do" parametercheck="_pn= ast_m_assettypemaster,_en=onLoad" />
+			<url id="ast.mst.type.assettypemaster.onSave" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn= ast_m_assettypemaster,_en=onSave" />			
+			<url id="ast.mst.type.assettypemaster.onssubmit" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=mkrchr,_en=submit" /> 
+		</menu>
+		
+		<menu id="cpf.master.assetsub.asttype" helpid="11" caption="Asset SubTypes" resourceid="cpf.masters.assetmaster" permission="write" module="ASSET" category="Configurator" url="/secure/BRMS.do" parameters="_fid=secureAsset&amp;_pn=ast_m_assetsubtype&amp;_en=onLoad&amp;wpageno=1&amp;wrpage=25" imageurl="" >
+			<url id="ast.master.all.onLoad" module="ASSET" permission="read" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetsubtype,_en=onLoad"/>
+			<url id="ast.master.all.onSave" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetsubtype,_en=onSave"/>
+			<url id="ast.master.all.pagination" module="ASSET" permission="read" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetsubtype,_en=getPage"/>
+			<url id="ast.master.all.pagination1" module="ASSET" permission="read" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetsubtype,_en=onFetch"/>
+		</menu>
+		
+		<menu id="ast.mst.auto" helpid="7" caption="Asset Master-AUTO" resourceid="ast.mst.auto" permission="write" module="ASSET" category="Configurator" url="/secure/weblist.do" parameters="_fid=secureAsset&amp;_pn=ast_m_assetlist&amp;_en=assetlist&amp;aclas=AUTO&amp;hmak=L_AST_AUTO_MAKE&amp;hmdl=L_AST_AUTO_MODEL&amp;hver=L_AST_AUTO_VERSION&amp;hclr=L_AST_AUTO_COLOR&amp;hsub=L_AST_AUTO_SUBTYPE&amp;hmnf=M" imageurl="" >
+			<url id="ast.mst.auto.Web1" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=assetlist" />
+			<url id="ast.mst.auto.Web2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=ast_m_assetlist,_wn=assetlist" />
+			<url id="ast.mst.auto.Web3" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=assetlist,_wn=assetlist" />
+			<url id="ast.mst.auto.active" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetlist,_en=activate" />
+			<url id="ast.mst.auto.deactive" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetlist,_en=deactivate" />
+			<url id="ast.mst.auto.copy" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetlist,_en=copyast" />
+			<url id="ast.mst.auto.new" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetlist,_en=newast" />
+			<url id="ast.mst.auto.assetmaster.onLoad1" module="ASSET" permission="write" url="/secure/BRMS.do" parameters="_fid=secureAsset&amp;_pn=ast_m_assetmaster&amp;_en=onLoad" />
+			<url id="ast.mst.auto.assetmaster.onLoad" module="ASSET" permission="read" url="/secure/BRMS.do" parametercheck="_pn= ast_m_assetmaster,_en=onLoad" />
+			<url id="ast.mst.auto.assetmaster.onSave" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn= ast_m_assetmaster,_en=onSave" />
+			<url id="ast.mst.auto.assetmaster.search1" module="ASSET" permission="read" url="/secure/search.do" parametercheck="PN=ast_m_assetmaster,BN=acode"/>
+			<url id="ast.mst.auto.assetmaster.search2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=assetcode"/>
+			<url id="ast.mst.auto.assetmaster.search.3" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=assetcode,_wn=assetcode" />
+			<url id="ast.mst.auto.assetype.search1" module="ASSET" permission="read" url="/secure/search.do" parametercheck="PN=ast_m_assetmaster,BN=atypc"/>
+			<url id="ast.mst.auto.assetype.search2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=assettype"/>
+			<url id="ast.mst.auto.assetype.search.3" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=assettype,_wn=assettype" />
+			<url id="ast.mst.autoweb.return" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=ast_m_assetlist" />
+			<url id="ast.mst.auto.weblist.1" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=statelist"/>
+			<url id="ast.mst.auto.weblist.2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=ast_m_assetmaster,_wn=statelist"/>
+			<url id="ast.mst.auto.weblistdata.3" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=statelist"/>
+			<url id="ast.mst.auto.weblistdata.4" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=statelist,_wn=statelist" />
+			<url id="ast.mst.auto.cweblist.1" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=citylist"/>
+			<url id="ast.mst.auto.cweblist.2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=ast_m_assetmaster,_wn=citylist"/>
+			<url id="ast.mst.auto.cweblistdata.3" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=citylist"/>
+			<url id="ast.mst.auto.cweblistdata.4" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=citylist,_wn=citylist" />
+			
+			<url id="ast.mst.auto.dweblist.1" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistEntity"/>
+			<url id="ast.mst.auto.dweblist.2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=ast_m_assetmaster,_wn=weblistEntity"/>
+			<url id="ast.mst.auto.dweblistdata.3" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=weblistEntity"/>
+			<url id="ast.mst.auto.dweblistdata.4" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistEntity,_wn=weblistEntity" />
+			
+			<url id="ast.master.all.popsearch4" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=astdepreciationlist"/>
+			<url id="ast.master.all.popsearch5" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=astdepreciationlist,_wn=astdepreciationlist" />
+			<url id="ast.mst.auto.assetmaster.search11" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=insurncecatgry"/>
+			<url id="ast.mst.auto.assetmaster.search12" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=insurncecatgry,_wn=insurncecatgry" />						
+		</menu>
+		<menu id="ast.mst.cd" helpid="8" caption="Asset Master-CD" resourceid="ast.mst.cd" permission="write" module="ASSET" category="Configurator" url="/secure/weblist.do" parameters="_fid=secureAsset&amp;_pn=ast_m_assetlist&amp;_en=assetlist&amp;aclas=CD&amp;hmak=L_AST_CD_MAKE&amp;hmdl=L_AST_CD_MODEL&amp;hver=L_AST_CD_VERSION&amp;hclr=L_AST_CD_COLOR&amp;hsub=L_AST_CD_SUBTYPE&amp;hmnf=M" imageurl="" >
+			<url id="ast.mst.cd.Web1" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=assetlist" />
+			<url id="ast.mst.cd.Web2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=ast_m_assetlist,_wn=assetlist" />
+			<url id="ast.mst.cd.Web3" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=assetlist,_wn=assetlist" />
+			<url id="ast.mst.cd.active" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetlist,_en=activate" />
+			<url id="ast.mst.cd.deactive" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetlist,_en=deactivate" />
+			<url id="ast.mst.cd.copy" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetlist,_en=copyast" />
+			<url id="ast.mst.cd.new" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetlist,_en=newast" />
+			<url id="ast.mst.cd.assetmaster.onLoad1" module="ASSET" permission="read" url="/secure/BRMS.do" parameters="_fid=secureAsset&amp;_pn=ast_m_assetmaster&amp;_en=onLoad" />
+			<url id="ast.mst.cd.assetmaster.onLoad" module="ASSET" permission="read" url="/secure/BRMS.do" parametercheck="_pn= ast_m_assetmaster,_en=onLoad" />
+			<url id="ast.mst.cd.assetmaster.onSave" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn= ast_m_assetmaster,_en=onSave" />
+			<url id="ast.mst.cd.assetmaster.search1" module="ASSET" permission="read" url="/secure/search.do" parametercheck="PN=ast_m_assetmaster,BN=acode"/>
+			<url id="ast.mst.cd.assetmaster.search2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=assetcode"/>
+			<url id="ast.mst.cd.assetmaster.search.3" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=assetcode,_wn=assetcode" />
+			<url id="ast.mst.cd.assetype.search1" module="ASSET" permission="read" url="/secure/search.do" parametercheck="PN=ast_m_assetmaster,BN=atypc"/>
+			<url id="ast.mst.cd.assetype.search2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=assettype"/>
+			<url id="ast.mst.cd.assetype.search.3" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=assettype,_wn=assettype" />
+			<url id="ast.mst.cdweb.return" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=ast_m_assetlist" />
+			<url id="ast.master.all.popsearch6" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=astdepreciationlist"/>
+			<url id="ast.master.all.popsearch7" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=astdepreciationlist,_wn=astdepreciationlist" />
+		</menu>
+		<menu id="ast.mst.mort" helpid="9" caption="Asset Master-Mortgage" resourceid="ast.mst.mort" permission="write" module="ASSET" category="Configurator" url="/secure/weblist.do" parameters="_fid=secureAsset&amp;_pn=ast_m_assetlist&amp;_en=assetlist&amp;aclas=MORT&amp;hsub=L_AST_MORT_SUBTYPE&amp;hmnf=D" imageurl="" >
+			<url id="ast.mst.mort.Web1" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=assetlist" />
+			<url id="ast.mst.mort.Web2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=ast_m_assetlist,_wn=assetlist" />
+			<url id="ast.mst.mort.Web3" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=assetlist,_wn=assetlist" />
+			<url id="ast.mst.mort.active" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetlist,_en=activate" />
+			<url id="ast.mst.mort.deactive" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetlist,_en=deactivate" />
+			<url id="ast.mst.mort.copy" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetlist,_en=copyast" />
+			<url id="ast.mst.mort.new" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetlist,_en=newast" />
+			<url id="ast.mst.mort.assetmaster.onLoad1" module="ASSET" permission="read" url="/secure/BRMS.do" parameters="_fid=secureAsset&amp;_pn=ast_m_assetmaster&amp;_en=onLoad" />
+			<url id="ast.mst.mort.assetmaster.onLoad" module="ASSET" permission="read" url="/secure/BRMS.do" parametercheck="_pn= ast_m_assetmaster,_en=onLoad" />
+			<url id="ast.mst.mort.assetmaster.onSave" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn= ast_m_assetmaster,_en=onSave" />
+			<url id="ast.mst.mort.assetmaster.search1" module="ASSET" permission="read" url="/secure/search.do" parametercheck="PN=ast_m_assetmaster,BN=acode"/>
+			<url id="ast.mst.mort.assetmaster.search2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=assetcode"/>
+			<url id="ast.mst.mort.assetmaster.search.3" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=assetcode,_wn=assetcode" />
+			<url id="ast.mst.mort.assetype.search1" module="ASSET" permission="read" url="/secure/search.do" parametercheck="PN=ast_m_assetmaster,BN=atypc"/>
+			<url id="ast.mst.mort.assetype.search2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=assettype"/>
+			<url id="ast.mst.mort.assetype.search.3" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=assettype,_wn=assettype" />
+			<url id="ast.mst.mortweb.return" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=ast_m_assetlist" />
+			<url id="ast.master.all.popsearch8" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=astdepreciationlist"/>
+			<url id="ast.master.all.popsearch9" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=astdepreciationlist,_wn=astdepreciationlist" />
+		</menu>
+		<menu id="ast.mst.cmdt" helpid="10" caption="Asset Master-Commodity" resourceid="ast.mst.cmdt" permission="write" module="ASSET" category="Configurator" url="/secure/weblist.do" parameters="_fid=secureAsset&amp;_pn=ast_m_assetlist&amp;_en=assetlist&amp;aclas=COMD&amp;hsub=L_AST_COMD_SUBTYPE&amp;hmnf=M" imageurl="" >
+			<url id="ast.mst.cmdt.Web1" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=assetlist" />
+			<url id="ast.mst.cmdt.Web2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=ast_m_assetlist,_wn=assetlist" />
+			<url id="ast.mst.cmdt.Web3" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=assetlist,_wn=assetlist" />
+			<url id="ast.mst.cmdt.active" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetlist,_en=activate" />
+			<url id="ast.mst.cmdt.deactive" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetlist,_en=deactivate" />
+			<url id="ast.mst.cmdt.copy" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetlist,_en=copyast" />
+			<url id="ast.mst.cmdt.new" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assetlist,_en=newast" />
+			<url id="ast.mst.cmdt.assetmaster.onLoad1" module="ASSET" permission="read" url="/secure/BRMS.do" parameters="_fid=secureAsset&amp;_pn=ast_m_assetmaster&amp;_en=onLoad" />
+			<url id="ast.mst.cmdt.assetmaster.onLoad" module="ASSET" permission="read" url="/secure/BRMS.do" parametercheck="_pn= ast_m_assetmaster,_en=onLoad" />
+			<url id="ast.mst.cmdt.assetmaster.onSave" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn= ast_m_assetmaster,_en=onSave" />
+			<url id="ast.mst.cmdt.assetmaster.search1" module="ASSET" permission="read" url="/secure/search.do" parametercheck="PN=ast_m_assetmaster,BN=acode"/>
+			<url id="ast.mst.cmdt.assetmaster.search2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=assetcode"/>
+			<url id="ast.mst.cmdt.assetmaster.search.3" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=assetcode,_wn=assetcode" />
+			<url id="ast.mst.cmdt.assetype.search1" module="ASSET" permission="read" url="/secure/search.do" parametercheck="PN=ast_m_assetmaster,BN=atypc"/>
+			<url id="ast.mst.cmdt.assetype.search2" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=assettype"/>
+			<url id="ast.mst.cmdt.assetype.search.3" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=assettype,_wn=assettype" />
+			<url id="ast.mst.comdweb.return" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=ast_m_assetlist" />
+			<url id="ast.master.all.popsearch10" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=astdepreciationlist"/>
+			<url id="ast.master.all.popsearch11" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=astdepreciationlist,_wn=astdepreciationlist" />
+		</menu>
+		
+		<menu id="ast.authworklist.1" helpid="" caption="Authorization Worklist" resourceid="menu.weblist.authworklist" permission="read" module="ASSET" category="Configurator" url="/secure/weblist.do" parameters="_fid=secureadmin&amp;_pn=authworklist&amp;_en=authworklist&amp;_modulecd=ASSET" imageurl="">
+			<url id="ast.master.all.11" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=ast_m_assettype,_wn=assettypelist" />
+			<url id="ast.master.all.21" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=assettypelist,_wn=assettypelist" />
+			<url id="ast.master.all.31" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assettype" />
+			<url id="ast.master.all.91" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_fid=secureAsset,_pn=ast_m_assettype,_en=assettypelist" />
+			<url id="ast.master.all.101" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assettype,_en=activate_class" />
+			<url id="ast.master.all.111" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assettype,_en=deactivate_class" />
+			<url id="ast.master.all.121" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=ast_m_assettype,_en=editclass" />	
+			<url id="ast.master.all.161" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=assettypelist" />
+			<url id="ast.master.all.181" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=assetclasslist,_wn=assettypelist" />
+			<url id="ast.master.all.popsearch21" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=astdepreciationlist"/>
+			<url id="ast.master.all.popsearch31" module="ASSET" permission="read" url="/secure/weblist.do" parametercheck="_pn=astdepreciationlist,_wn=astdepreciationlist" />
+			<url id="ast.mst.type.assettypemaster.onLoad11" module="ASSET" permission="write" url="/secure/BRMS.do" parameters="_fid=secureAsset&amp;_pn=ast_m_assettypemaster&amp;_en=onLoad" />			
+			<url id="ast.mst.type.assettypemaster.onLoad1" module="ASSET" permission="read" url="/secure/BRMS.do" parametercheck="_pn= ast_m_assettypemaster,_en=onLoad" />
+			<url id="ast.mst.type.assettypemaster.onSave1" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn= ast_m_assettypemaster,_en=onSave" />			
+			<url id="ast.mst.type.assettypemaster.onssubmit1" module="ASSET" permission="write" url="/secure/BRMS.do" parametercheck="_pn=mkrchr,_en=submit" /> 
+			
+			<url id="ast.weblist.111" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=weblistsearch,_wn=authworklist"/>
+			<url id="ast.weblist.211" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=authworklist,_wn=authworklist" />
+			<url id="ast.weblist.311" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck="_pn=authworklist,_wn=authworklist" />
+			<url id="ast.weblist.312" module="ASSET" permission="write" url="/secure/weblist.do" parametercheck=""/>
+			<url id="ast.admin.usermgt.users1.auth.106" module="ASSET" permission="read" url="/secure/BRMS.do" parametercheck="_pn=mkrchr,_en=approve" />
+			<url id="ast.admin.usermgt.users1.auth.107" module="ASSET" permission="read" url="/secure/BRMS.do" parametercheck="_pn=mkrchr,_en=reject" />
+			<url id="ast.admin.usermgt.users1.auth.108" module="ASSET" permission="read" url="/secure/BRMS.do" parametercheck="_pn=mkrchr,_en=submit" /> 
+			<url id="ast.admin.usermgt.users1.auth.109" module="ASSET" permission="read" url="/secure/BRMS.do" parametercheck="_pn=mkrchr,_en=cancel" />
+		</menu>
+	</menu>
+</menus>
